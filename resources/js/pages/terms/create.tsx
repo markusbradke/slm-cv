@@ -1,13 +1,13 @@
-import AppLayout from '@/layouts/app-layout';
-import { type BreadcrumbItem } from '@/types';
-import { Head, router, useForm } from '@inertiajs/react';
-import { Button } from '@/components/ui/button';
-import { FormEventHandler, useRef } from 'react';
-import { Label } from '@/components/ui/label';
-import { Input } from '@/components/ui/input';
 import InputError from '@/components/input-error';
-import { Textarea } from '@headlessui/react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import AppLayout from '@/layouts/app-layout';
+import { SharedData, Vocabulary, type BreadcrumbItem } from '@/types';
+import { Textarea } from '@headlessui/react';
+import { Head, router, useForm, usePage } from '@inertiajs/react';
+import { FormEventHandler, useRef } from 'react';
 import { toast } from 'sonner';
 
 type CreateTermForm = {
@@ -18,9 +18,22 @@ type CreateTermForm = {
     discussion_url?: string;
     notes?: string;
     status?: string;
-}
+    vocabulary_id?: string;
+};
 
-export default function Create() {
+export default function Create({ vocabularies }: { vocabularies: Vocabulary[] }) {
+    const page = usePage<SharedData>();
+    const { auth } = page.props;
+
+    if (!auth) {
+        router.visit('/login');
+        return null;
+    }
+
+    // Extract URL parameters
+    const urlParams = new URLSearchParams(page.url.split('?')[1]);
+    const vocabularySlug = urlParams.get('vocabulary');
+
     const termName = useRef<HTMLInputElement>(null);
     const termDefinition = useRef<HTMLInputElement>(null);
     const termProvenance = useRef<HTMLInputElement>(null);
@@ -35,6 +48,7 @@ export default function Create() {
         provenance_uri: '',
         discussion_url: '',
         notes: '',
+        vocabulary_id: '',
         status: 'pending',
     });
 
@@ -50,9 +64,9 @@ export default function Create() {
             },
             onError: (errors) => {
                 toast.error('There was an error creating the term.');
-            }
-        })
-    }
+            },
+        });
+    };
 
     const breadcrumbs: BreadcrumbItem[] = [
         {
@@ -68,12 +82,12 @@ export default function Create() {
             href: '#',
         },
     ];
-    
+
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Create Term" />
 
-            <div className='mt-4'>
+            <div className="mt-4">
                 <form onSubmit={createTask} className="space-y-6">
                     <div className="grid gap-2">
                         <Label htmlFor="name">Term Name *</Label>
@@ -85,11 +99,28 @@ export default function Create() {
                             onChange={(e) => setData('name', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.name} />
                     </div>
                     <div className="grid gap-2">
-                        <Label htmlFor="definition">Definition</Label>
+                        <Label htmlFor="status">Vocabulary</Label>
+                        <Select value={data.vocabulary_id} onValueChange={(value) => setData('vocabulary_id', value)}>
+                            <SelectTrigger className="w-[250px]">
+                                <SelectValue placeholder="Select Vocabulary" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                {vocabularies.map((vocabulary) => (
+                                    <SelectItem key={vocabulary.id} value={String(vocabulary.id)}>
+                                        {vocabulary.name}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
+
+                        <InputError message={errors.vocabulary_id} />
+                    </div>
+                    <div className="grid gap-2">
+                        <Label htmlFor="definition">Definition *</Label>
 
                         <Textarea
                             id="definition"
@@ -98,7 +129,7 @@ export default function Create() {
                             onChange={(e) => setData('definition', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.definition} />
                     </div>
                     <div className="grid gap-2">
@@ -111,7 +142,7 @@ export default function Create() {
                             onChange={(e) => setData('provenance', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.provenance} />
                     </div>
                     <div className="grid gap-2">
@@ -124,7 +155,7 @@ export default function Create() {
                             onChange={(e) => setData('provenance_uri', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.provenance_uri} />
                     </div>
                     <div className="grid gap-2">
@@ -137,7 +168,7 @@ export default function Create() {
                             onChange={(e) => setData('discussion_url', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.discussion_url} />
                     </div>
                     <div className="grid gap-2">
@@ -150,14 +181,14 @@ export default function Create() {
                             onChange={(e) => setData('notes', e.target.value)}
                             className="mt-1 block w-full"
                         />
-                        
+
                         <InputError message={errors.notes} />
                     </div>
                     <div className="grid gap-2">
                         <Label htmlFor="status">Status</Label>
 
                         <Select value={data.status} onValueChange={(value) => setData('status', value)}>
-                            <SelectTrigger className="w-[180px]">
+                            <SelectTrigger className="w-[250px]">
                                 <SelectValue placeholder="Status" />
                             </SelectTrigger>
                             <SelectContent>
@@ -167,14 +198,12 @@ export default function Create() {
                                 <SelectItem value="deprecated">Deprecated</SelectItem>
                             </SelectContent>
                         </Select>
-                    
-                        <InputError message={errors.status} />    
+
+                        <InputError message={errors.status} />
                     </div>
 
                     <div className="flex items-center gap-4">
-                        <Button disabled={processing}>
-                            Create Term
-                        </Button>
+                        <Button disabled={processing}>Create Term</Button>
                     </div>
                 </form>
             </div>

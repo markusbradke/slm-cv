@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/react-starter-kit",
+    "name": "markusbradke/slm-cv",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Controlled vocabulary for GNSS metadata.",
     "keywords": [
         "laravel",
         "framework"
@@ -10,10 +10,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "darkaonline/l5-swagger": "^9.0",
         "inertiajs/inertia-laravel": "^2.0",
         "laravel/framework": "^12.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
+        "owen-it/laravel-auditing": "^14.0",
         "silber/bouncer": "^1.0",
+        "spatie/schema-org": "^3.23",
         "tightenco/ziggy": "^2.4"
     },
     "require-dev": {

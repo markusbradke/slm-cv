@@ -1,0 +1,54 @@
+[
+    {
+        "term": "GNSS",
+        "definition": "GNSS station"
+    },
+    {
+        "term": "DORIS",
+        "definition": "DORIS ground beacon"
+    },
+    {
+        "term": "PRARE",
+        "definition": "Precise range and range-rate equipment"
+    },
+    {
+        "term": "SLR",
+        "definition": "Satellite Laser Ranging station"
+    },
+    {
+        "term": "INSAR CR/A",
+        "definition": "Ascending corner reflector"
+    },
+    {
+        "term": "INSAR CR/D",
+        "definition": "Descending corner reflector"
+    },
+    {
+        "term": "INSAR CR/C",
+        "definition": "Coupled corner reflector"
+    },
+    {
+        "term": "INSAR CR/I",
+        "definition": "Integrated corner reflector"
+    },
+    {
+        "term": "INSAR ACTR/A",
+        "definition": "Ascending active compact transponder"
+    },
+    {
+        "term": "INSAR ACTR/D",
+        "definition": "Descending active compact transponder"
+    },
+    {
+        "term": "INSAR ACTR/C",
+        "definition": "Coupled active compact transponder"
+    },
+    {
+        "term": "INSAR ACTR/I",
+        "definition": "Integrated active compact transponder"
+    },
+    {
+        "term": "Tide Gauge",
+        "definition": "Tide gauge"
+    }
+]

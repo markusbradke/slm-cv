@@ -1,0 +1,141 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "SLM-CV OpenAPI Documentation",
+        "description": "This is the OpenAPI specification for the Controlled Vocabulary.",
+        "contact": {
+            "name": "SLM-CV Support",
+            "url": "http://localhost/api/v1",
+            "email": "support@igs.org"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/license/MIT"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost/api/v1",
+            "description": "SLM-CV API Server"
+        }
+    ],
+    "paths": {
+        "/terms": {
+            "get": {
+                "summary": "List terms",
+                "description": "Display a listing of the resource.",
+                "operationId": "indexTerms",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/search"
+                    },
+                    {
+                        "$ref": "#/components/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Term"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Term": {
+                "description": "Term schema",
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "description": "ID",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "name": {
+                        "title": "Term name",
+                        "description": "Name of the term",
+                        "type": "string",
+                        "format": "string",
+                        "nullable": false
+                    },
+                    "definition": {
+                        "title": "Term definition",
+                        "description": "Definition of the term",
+                        "type": "string",
+                        "format": "string",
+                        "nullable": true
+                    },
+                    "createdAt": {
+                        "title": "Created at",
+                        "description": "Timestamp of creation",
+                        "type": "string",
+                        "format": "datetime",
+                        "example": "2023-08-23 14:39:37",
+                        "nullable": true
+                    },
+                    "updatedAt": {
+                        "title": "Updated at",
+                        "description": "Timestamp of last update",
+                        "type": "string",
+                        "format": "datetime",
+                        "example": "2023-08-23 14:39:37",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "responses": {
+            "204": {
+                "description": "No Content"
+            },
+            "401": {
+                "description": "Unauthorized"
+            },
+            "403": {
+                "description": "Forbidden"
+            },
+            "404": {
+                "description": "Not Found"
+            }
+        },
+        "parameters": {
+            "search": {
+                "name": "search",
+                "in": "query",
+                "description": "Search term",
+                "required": false,
+                "schema": {
+                    "type": "string"
+                }
+            },
+            "per_page": {
+                "name": "per_page",
+                "in": "query",
+                "description": "Number of records per page (Default: all)",
+                "required": false,
+                "schema": {
+                    "type": "int",
+                    "example": "-1"
+                }
+            }
+        }
+    }
+}

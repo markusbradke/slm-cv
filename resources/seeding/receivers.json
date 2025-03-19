@@ -1,0 +1,4066 @@
+[
+    {
+        "term": "3SNAV GNSS-300",
+        "definition": "L1 C/A GPS/GLONASS, 12 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV GNSS-300T",
+        "definition": "L1 C/A GPS/GLONASS, 18 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100 OLD",
+        "definition": "L1 C/A GPS/GLONASS, 12 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-30",
+        "definition": "GLONASS L1-band or L2-band, C/A-code or P-code, 2 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-30T 12",
+        "definition": "R100-30T 2 with L1 C/A GPS/GLONASS expansion, up to 12 channels",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-30T 2",
+        "definition": "GLONASS L1 C/A code and L1/L2 P code, 2 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-40",
+        "definition": "GLONASS L1-band or L2-band, C/A-code or P-code, 4 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-40T 12",
+        "definition": "R100-40T 4 with L1 C/A GPS/GLONASS expansion, up to 12 channels",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R100-40T 4",
+        "definition": "GLONASS L1 C/A code and L1/L2 P code, 4 channel",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "3SNAV R101 OLD",
+        "definition": "GLONASS L1, L2 C/A and P Code, 4 channel Note: For all R100 series below, additional P code GLONASS channels available up to total of 12",
+        "manufacturer": "3SNavigation",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "ALERTGEO RESOLUTE",
+        "definition": "448 channels GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS multi-frequency reference  receiver",
+        "manufacturer": "ALERTGEO",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ALTUS APS-3",
+        "definition": "GPS L1/L2+L2C, GLO L1/L2, SBAS integrated rcvr/antenna",
+        "manufacturer": "Altus",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ALTUS APS-3L",
+        "definition": "GPS L1/L2+L2C, GLO L1/L2, SBAS, L-Band rcvr/antenna",
+        "manufacturer": "Altus",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ALTUS APS-GEOPOD",
+        "definition": "GPS L1/L2, GLO L1/L2, SBAS receiver",
+        "manufacturer": "Altus",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ALTUS APS-NR2",
+        "definition": "GPS L1/L2, GLO L1/L2, SBAS integrated rcvr/antenna",
+        "manufacturer": "Altus",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA BENCHMARK ACT",
+        "definition": "AOA Benchmark with ACT technology (12 channel)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "AOA ICS-4000Z",
+        "definition": "AOA SNR-8100 designed for ionsopheric monitoring",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA ICS-4000Z ACT",
+        "definition": "AOA ICS-4000Z upgraded to ACT technology",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA RASCAL-12",
+        "definition": "AOA Rascal, 12 channel",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA RASCAL-8",
+        "definition": "AOA Rascal, 8 channel",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA SNR-12 ACT",
+        "definition": "AOA TurboRogue (12 channel, upgraded to ACT), functionally like AOA BENCHMARK ACT",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA SNR-8000 ACT",
+        "definition": "AOA TurboRogue (SNR-8000 upgraded to ACT), functionally like AOA BENCHMARK ACT",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "AOA SNR-8100 ACT",
+        "definition": "AOA TurboRogue (SNR-8100 upgraded to ACT), functionally like AOA BENCHMARK ACT",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA TTR-12",
+        "definition": "AOA Time Transfer Receiver (12 channel)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "AOA TTR-4P",
+        "definition": "AOA Time Transfer Receiver (8 channel)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH 3DF-XXIV",
+        "definition": "4x6 channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH 802147_A",
+        "definition": "ProMark 800, 120 channels GPS L1/L2/L5, GLONASS, Galileo, SBAS integrated receiver/antenna",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH D-XII",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH G-XII",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH GG24C",
+        "definition": "24  channel, L1 only, GPS & GLONASS (GG-Surveyor)",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH L-XII",
+        "definition": "12  channel, codeless L2",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH LCS-XII",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH LM-XII3",
+        "definition": "12  channel, L1/L2 P1/P2, Model 700340A",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH M-XII",
+        "definition": "12  channel, L1 only, photogrammetric option",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH MS-XII",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH P-XII3",
+        "definition": "12  channel, L1/L2 P1/P2 (P-12), Model 700363B",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH PF500",
+        "definition": "75  channel GPS L1/L2/L2C, GLONASS, SBAS ProFlex 500 CORS receiver",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH PF800",
+        "definition": "ProFlex 800, 120 channels GPS L1/L2/L5, GLONASS, Galileo, SBAS receiver",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH RANGER",
+        "definition": "12  channel, codeless L2",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH S-XII",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH SUPER-CA",
+        "definition": "12  channel, L1 only",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ASHTECH UZ-12",
+        "definition": "12 channel L1/L2 P1/P2 (Z-Surveyor/MicroZ/Z-fx/iCGRS)",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ASHTECH Z-X",
+        "definition": "12 channel, L1/L2 P1/P2 Z-Xtreme (Note: firmware reports UZ-12 but RF section is different)",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ASHTECH Z-XII3",
+        "definition": "12  channel, L1/L2 P1/P2 [includes Models 700570, 700724 (Z-12) and 700845 (including LPZ-12 and Z-12 CGRS)]",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ASHTECH Z-XII3GETT",
+        "definition": "12  channel, L1/L2 P1/P2 modified for time transfer (Note: firmware reports \"Z-XII3\")",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ASHTECH Z-XII3T",
+        "definition": "12  channel, L1/L2 P1/P2 with Metronome option (Note: firmware reports \"Z-XII3\")",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ASHTECH Z18",
+        "definition": "18  channel, L1/L2 P1/P2, GPS & GLONASS (Z-18)",
+        "manufacturer": "Ashtech",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 18
+    },
+    {
+        "term": "CHAMPION PRO",
+        "definition": "220 channel, GPS L1/L2+L2C/L5, GLO L1/L2/L3CDMA, GAL E1/E5a/E5b/E5AltBoc, BDS B1/B2, SBAS L1/L5 integrated receiver/antenna",
+        "manufacturer": "Champion",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHAMPION QB1",
+        "definition": "220 channel, GPS L1/L2+L2C/L5, GLO L1/L2, GAL L1 BOC/E5a/E5b/E5AltBoc, BDS B1/B2, SBAS L1/L5 reference station receiver",
+        "manufacturer": "Champion",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHAMPION WR1",
+        "definition": "220 channel, GPS L1/L2+L2C/L5, GLO L1/L2, GAL L1 BOC/E5A/E5B/E5AltBoc, BDS B1/B2, SBAS L1/L5 integrated receiver/antenna",
+        "manufacturer": "Champion",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC B20",
+        "definition": "B20, 24 channels GPS: L1/L2+L2C DGPS Beacon receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC I80",
+        "definition": "I80, 220 channels GPS, GLO, GAL, BDS, SBAS integrated receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC LT500H",
+        "definition": "LT500H, 120 channel dual-frequency GPS, GLO, BDS portable receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC LT500N",
+        "definition": "LT500N, 12 channel single-frequency GPS-only portable receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC LT500T",
+        "definition": "LT500T, 220 channel single-frequency GPS, GLO, GAL, BDS portable receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC LT500U",
+        "definition": "LT500U, 72 channel GPS L1, GLO L1 portable receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "CHC N71",
+        "definition": "N71, 220 channels GPS: L1/L2/L5, GLO, GAL, & BDS reference station receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC N72",
+        "definition": "N72, 436 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/ E5a/E5b/AltBOC, BDS B1/B2/B3 reference station receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC P5E",
+        "definition": "P5E, 336 channels, GPS L1/L2E+L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5AltBoc/E6, BDS B1/B2/B3, SBAS, QZSS, IRNSS, Trimble RTX, reference station receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X20+",
+        "definition": "X20+, 12 channels GPS: L1 only, integrated static PPP/PPK only ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X20I+DGNSS",
+        "definition": "X20i, 372 channels GPS L1, GLO L1, BDS B1, DGNSS & SBAS receiver for iOS devices",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "CHC X20I+RTK",
+        "definition": "X20i, 220 channels GPS L1/L2+L2C/L5, GLO, GAL, BDS integrated ARM receiver for iOS devices",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X360",
+        "definition": "X360, 120 channels GPS, GAL, BDS mini reference station receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X90+",
+        "definition": "X90+, 24 channels GPS: L1/L2+L2C, L-Band integrated static PPP/PPK ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X900+",
+        "definition": "X900+, 120 channels GPS: L1/L2/L5, GLO, GAL, & BDS integrated ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X900+S",
+        "definition": "X900+ with Satel UHF, 120 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X900B",
+        "definition": "X900 Base, 120 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated receiver (w/o UHF)",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X900R",
+        "definition": "X900 Rover, 120 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated receiver (w/UHF)",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X90D-OPUS",
+        "definition": "X90D-OPUS, 24 channels GPS: L1/L2+L2C integrated static PPP only ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X91+",
+        "definition": "X91+, 220 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X91+S",
+        "definition": "X91+ with Satel UHF, 220 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated ARM receiver",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X91B",
+        "definition": "X91 Base, 220 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated receiver (w/o UHF)",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CHC X91R",
+        "definition": "X91 Rover, 220 channels GPS: L1/L2+L2C/L5, GLO, GAL, & BDS integrated receiver (w/UHF)",
+        "manufacturer": "CHC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CMC ALLSTAR 12",
+        "definition": "Canadian Marconi Allstar 12, L1 receiver (part of UNAVCOs volcano monitoring system)",
+        "manufacturer": "Other",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "CMC ALLSTAR OEM",
+        "definition": "Canadian Marconi Allstar OEM",
+        "manufacturer": "Other",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "COMNAV M300 MINI",
+        "definition": "ComNav M300 Mini 496 Channel GPS L1/L2/L5, GLO L1/L2 BDS B1/B2/B3, GAL E1/E5a/E5b, QZSS L1/L2/L5, SBAS GNSS receiver",
+        "manufacturer": "COMNAV",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "COMNAV M300 PRO",
+        "definition": "ComNav M300 PRO 496 Channel GPS L1/L2/L5, GLO L1/L2 BDS B1/B2/B3, GAL E1/E5a/E5b, QZSS L1/L2/L5 SBAS reference GNSS receiver",
+        "manufacturer": "COMNAV",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "COMNAV T30",
+        "definition": "ComNav T30 574 channel GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b/AltBOC, QZSS, IRNSS, L-Band, SBAS integrated GNSS receiver/antenna",
+        "manufacturer": "COMNAV",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "COMNAV T300",
+        "definition": "ComNav T300 256 channel GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, SBAS integrated GNSS receiver/antenna",
+        "manufacturer": "COMNAV",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "COMNAV T300+",
+        "definition": "ComNav T300 Plus 572 channel GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b, SBAS integrated GNSS receiver/antenna",
+        "manufacturer": "COMNAV",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "EMLID REACH RS2",
+        "definition": "184 channel, GPS/QZSS L1C/A, L2C, GLO L1, L2; BDS B1I, B2I; GAL E1-B/C, E5b GNSS receiver/antenna",
+        "manufacturer": "EMLID",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ESA/ISN GNSS",
+        "definition": "8 channel dual-frequency GPS/GLONASS receiver developed by ESA for U. Leeds",
+        "manufacturer": "Other",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "FOIF A30",
+        "definition": "Suzhou FOIF 220 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou, SBAS integrated GNSS receiver/ antenna",
+        "manufacturer": "FOIF",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "FOIF A90 GNSS",
+        "definition": "800/555/336 channel GPS L1/L2+L2C/L5, BeiDou, GLONASS, Galileo, IRNSS, QZSS, SBAS, MSS L-Band integrated receiver/antenna",
+        "manufacturer": "FOIF",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEO DUAL FREQ GPS",
+        "definition": "SPP GEOTRACER3220",
+        "manufacturer": "Spectra Precision",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEO GEODIMETER L1",
+        "definition": "SPP GEODIMETER-L1",
+        "manufacturer": "Spectra Precision",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEO GPS-GLONASS",
+        "definition": "SPP GEOTRACER3320",
+        "manufacturer": "Spectra Precision",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH10",
+        "definition": "72  channel GPS L1/L2, GLONASS integrated GNSS receiver/antenna",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH15",
+        "definition": "120 channel GPS L1/L2/L2C, GLONASS, SBAS integrated GNSS receiver/antenna, Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH16",
+        "definition": "181 channel GPS/GLO/GAL/BDS/QZSS/SBAS Dual-frequency, RTK in/out, Ntrip",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH20",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou integrated GNSS receiver/antenna",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH25",
+        "definition": "120 channel GPS L1/L2/L2C, GLONASS, Galileo, BeiDou integrated GNSS receiver/antenna,Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH25PRO",
+        "definition": "120 channel GPS L1/L2/L2C, GLONASS, Galileo, BeiDou, SBAS integrated GNSS receiver/ant., Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH35",
+        "definition": "GPS L1/L2/L2C/L5, GLONASS, Galileo, BeiDou, SBAS integrated GNSS receiver/antenna, AdVance technology",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOMAX ZENITH40",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS/L-BAND multi-frequency, RTK in/out, Ntrip, integrated GNSS receiver/antenna",
+        "manufacturer": "GeoMax",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "GEOSTAR GEOS-5M EVK",
+        "definition": "",
+        "manufacturer": "GEOSTAR NAVIGATION",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "GINTEC CYF90",
+        "definition": "394 channel, GPS: L1CA/L1P/L1C/L2P/L2C/L5, GLO: L1/L2+L2C; BDS: B1/B2/B3; GAL: E1BC/E5a/E5b; QZSS: L1CA/L2C/L5/L1C; SBAS: L1 CA/L5 integrated receiver/antenna",
+        "manufacturer": "GINTEC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "HEMISPHERE S631",
+        "definition": "800 channel GPS L1/L2+L2C/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3, QZSS L1/L2/L5, SBAS L1/L5, L-Band Atlas integrated GNSS receiver/antenna",
+        "manufacturer": "Hemisphere",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "HI-TARGET VNET8",
+        "definition": "336 channel GPS L1/L2+L2C/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2/B3, QZSS L1/L2/L5, SBAS L1/L5, GNSS reference receiver",
+        "manufacturer": "HI-Target",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "HT VNET8T-G",
+        "definition": "Hi-Target L2 receiver",
+        "manufacturer": "HI-Target",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "IFEN NX_NTR_303_D",
+        "definition": "FPGA-based triple-frequency GNSS receiver GPS L1/L5, GAL E1/E5ab/E6; BDS B1/B2ab/B3; SBAS L1/L5",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN NX_NTR_500_D",
+        "definition": "FPGA-based penta-frequency GNSS receiver GPS L1/L2/L5, GAL E1/E5ab/E6; BDS B1/B2ab/B3; SBAS L1/L5; GLO G1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN NX_NTR_600_D",
+        "definition": "FPGA-based hexa-frequency GNSS receiver, GPS L1/L2/L5; GAL E1/E5ab/E6; BDS B1/B2ab/B3; SBAS L1/L5; GLO G1/G2",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_200",
+        "definition": "PC-based Real-Time Software Receiver V2.x with RF Front-End, GPS L1/L2; GAL E1; SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_300",
+        "definition": "PC-based Real-Time Software Receiver V2.x with RF Front-End, GPS L1/L2/L5; GAL E1/E5a; SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_400",
+        "definition": "PC-based Real-Time Software Receiver V2.x with RF Front-End, GPS L1/L2/L5; GAL E1/E5(a+b); SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_401",
+        "definition": "PC-based Real-Time Software Receiver V2.x with RF Front-End, GPS L1/L2/L5; GAL E1/E5a/E6; SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_402",
+        "definition": "PC-based Real-Time Software Receiver V2.x with RF Front-End, GPS L1/L2; GLO G1/G2; SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_700",
+        "definition": "PC-based Real-Time Software Receiver V2.x with Dual RF Front-End, GPS L1/L2/L5; GLO G1/G2; SBAS L1 GAL E1/E5(a+b)/E6;",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IFEN SX_NSR_RT_800",
+        "definition": "PC-based Real-Time Software Receiver V2.x with Dual RF Front-End, GPS L1/L2/L5; GLO G1/G2; BDS B1/B2/B3 GAL E1/E5(a+b)/E6; SBAS L1",
+        "manufacturer": "IFEN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "IGAGE IG8",
+        "definition": "IG8, 220 channels GPS, GLO, GAL, BDS, SBAS integrated receiver",
+        "manufacturer": "IGAGE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ITT 3750300",
+        "definition": "12 channel L1/L2 receiver",
+        "manufacturer": "ITT",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G2",
+        "definition": "216 channels GPS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD DUO_G2 DELTA",
+        "definition": "216 channels GPS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD DUO_G2 SIGMA",
+        "definition": "216 channels GPS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD DUO_G2D",
+        "definition": "216 channels GPS L1/L2/L2C, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G2D DELTA",
+        "definition": "216 channels GPS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G2D SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G3D",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G3D DELTA",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD DUO_G3D SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD GISMORE",
+        "definition": "216 channels GPS L1, GLONASS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD OMEGA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5/E6, BDS B1/B12/B1C/B2(B5B)/B5A/B3, QZSS L1/L2/L5/LEX, SBAS L1/L5, IRNSS L5 OMEGA receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD QUA_G3D",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD QUA_G3D DELTA",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD QUA_G3D SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C, GLONASS L1/L2, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_2S",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B1C/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5, L-band OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_3N",
+        "definition": "864 channels GPS L1/L2/L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC, BDS B1/B2, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_3N ALPHA",
+        "definition": "864 channels GPS L1/L2/L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC, BDS B1/B2, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing ALPHA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_3N ALPHA2",
+        "definition": "864 channels GPS L1/L2/L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC, BDS B1/B2, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing ALPHA2",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_3S",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B1C/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5/S, L-band OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_3S ALPHA",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B1C/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5/S, L-band receiver in housing ALPHA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G2",
+        "definition": "216 channels GPS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G2 ALPHA2",
+        "definition": "216 channels GPS L1, GAL E1, BDS B1, QZSS L1, SBAS L1 receiver in housing ALPHA2",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G2T",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G2T ALPHA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G2TH",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G2TH ALPHA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G2TH ALPHA2",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GAL E1/E5A, BDS B1, QZSS L1/L2, SBAS L1/L5, IRNSS L5 receiver in housing ALPHA2",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G3",
+        "definition": "216 channels GPS L1, GLONASS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3 ALPHA",
+        "definition": "216 channels GPS L1, GLONASS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3H",
+        "definition": "216 channels GPS L1, GLONASS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3H ALPHA",
+        "definition": "216 channels GPS L1, GLONASS L1, Galileo E1",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3H ALPHA2",
+        "definition": "216 channels GPS L1, GLO L1, GAL E1, BDS B1, QZSS L1, SBAS L1 receiver in housing ALPHA2",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3T",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G3T ALPHA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G3TH",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TR_G3TH ALPHA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_G3TH ALPHA2",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A, BDS B1, QZSS L1/L2, SBAS L1/L5, IRNSS L5 receiver in housing ALPHA2",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_LS",
+        "definition": "864 channels GPS L1/L2/L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B, Triumph-LS receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TR_VS",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A Triumph V.S. receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_3 DELTA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX receiver in housing DELTA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3 SIGMA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5/E6, BDS B1/B12/B1C/B2(B5B)/B5A/B3, QZSS L1/L2/L5/LEX, SBAS L1/L5, IRNSS L5 receiver in housing SIGMA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3L",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5 OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3L DELTA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5 receiver in housing DELTA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3L SIGMA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5 receiver in housing SIGMA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3N",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3N DELTA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing DELTA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3N SIGMA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing SIGMA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3S",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5/S, L-band OEM board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3S DELTA",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B1C/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5/S, L-band receiver in housing DELTA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_3S SIGMA",
+        "definition": "874 channels GPS L1/L2/L5,GAL E1/E5A/E5B/AltBOC/E6, GLO L1/L2/L3, BDS B1/B1C/B2A/B2B/AltBOC/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5/S, L-band receiver in the modernized housing SIGMA",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_DUO",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 OEM board with two antenna ports for heading determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_DUO DELTA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing DELTA with two antenna ports for heading determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_DUO SIGMA",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5, BDS B1/B12/B1C/B2(B5B)/B5A, QZSS L1/L2/L5, SBAS L1/L5, IRNSS L5 receiver in housing SIGMA with two antenna ports for heading determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G2T",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G2T DELTA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G2T SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G2TH",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G2TH DELTA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G2TH SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G3T",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3T DELTA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3T SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3TAJ",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3TAJ DELT",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3TAJ SIGM",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3TH",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_G3TH DELTA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_G3TH SIGMA",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_QUA",
+        "definition": "864 channels GPS L1/L2, GLO L1/L2, GAL E1, BDS B1/B12/B1C, QZSS L1, SBAS L1 OEM board with four antenna ports for attitude determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "JAVAD TRE_QUA DELTA",
+        "definition": "864 channels GPS L1/L2, GLO L1/L2, GAL E1, BDS B1/B12/B1C, QZSS L1, SBAS L1 receiver in housing DELTA with four antenna ports for attitude determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRE_QUA SIGMA",
+        "definition": "864 channels GPS L1/L2, GLO L1/L2, GAL E1, BDS B1/B12/B1C, QZSS L1, SBAS L1 receiver in housing SIGMA with four antenna ports for attitude determination",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRIUMPH1",
+        "definition": "216 channels GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRIUMPH2",
+        "definition": "216 channels GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2 Triumph-2 receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRIUMPH3",
+        "definition": "864 channels GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E5/E6, BDS B1//B1C/B2B/B2A/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, IRNSS L5 TRIUMPH-3 receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRIUMPH4",
+        "definition": "216 channels GPS L1/L2/L2C/L5, Galileo E1/E5A",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JAVAD TRIUMPH_1M",
+        "definition": "864 channels GPS L1/L2/L2C/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/AltBOC, BDS B1/B2, QZSS L1/L2/L5 Triumph-1M receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPL BLACKJACK",
+        "definition": "JPL receiver",
+        "manufacturer": "JPL",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS E_GGD",
+        "definition": "Legacy E 160mm Eurocard-based GPS/GLONASS dual frequency receiver",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS EGGDT",
+        "definition": "Lexon LT GPS/GLONASS EURO GGDT board",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS EUROCARD",
+        "definition": "GPS and/or GLONASS dual- or single- frequency receivers, including Eurocard-based Legacy",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS LEGACY",
+        "definition": "GPS/GLONASS dual- or single-frequency receiver, requires external antenna",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS ODYSSEY",
+        "definition": "GPS/GLONASS dual- or single-frequency receiver, with internal (Legant) flat groundplane antenna",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "JPS REGENCY",
+        "definition": "GPS/GLONASS dual- or single-frequency receiver, with internal (Regant) chokering antenna",
+        "manufacturer": "Javad",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA 680N GNSS",
+        "definition": "680N, 336 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K10",
+        "definition": "K10, 555 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K3",
+        "definition": "K3, 496 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K5 INFINITY",
+        "definition": "K5 Infinity, 336 channel GPS, GLO, GAL, BDS, QZSS, SBAS, integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K5 UFO",
+        "definition": "K5 UFO, 440 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K58PLUS",
+        "definition": "K58Plus, 440 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K5PLUS+",
+        "definition": "K5Plus+, 220 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "KOLIDA K86+",
+        "definition": "K86+, 220 channel GPS, GLO,integrated receiver/antenna",
+        "manufacturer": "Kolida",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ATX1230",
+        "definition": "12 channel L1/L2 receiver, Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ATX1230+GNSS",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA CRS1000",
+        "definition": "12 channel L1/L2, continuous reference station",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA FLX100",
+        "definition": "184 channel GPS/GLO/GAL/BDS/QZSS multi-frequency GNSS RTK rover",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GG02PLUS",
+        "definition": "72 channel GPS L1/L2, GLONASS GNSS/GIS Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GG03",
+        "definition": "120 channel GPS L1/L2, GLONASS L1/L2 Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GG04",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GG04PLUS",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GM30",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency monitoring receiver, 50 Hz, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GMX901",
+        "definition": "12 GPS, L1, 1Hz, internal antenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "LEICA GMX902",
+        "definition": "12 GPS, L1/L2, 20 Hz",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GMX902GG",
+        "definition": "14 GPS, 12 GLONASS, L1/L2, 20 Hz",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GMX910",
+        "definition": "555 channel GPS/GLO/BDS/QZSS multi-frequency monitoring Smartantenna, 10 Hz",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GR10",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GR25",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou reference server (RTK in/out)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GR30",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency reference server, 50 Hz, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GR50",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency reference server, 50 Hz, RTK in/out, Ntrip, WLAN/BT",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200",
+        "definition": "12 channel L1/L2 CORS receiver (RTK out standard) Corresponds to following Leica product: - Old product name \"GRX1200\" till Feb. 2005 - New product name \"GRX1200 Classic\" after Feb. 2005",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200+",
+        "definition": "16 channel GPS L1/L2 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200+GNSS",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200GGPRO",
+        "definition": "14 GPS, 12 GLONASS L1/L2, CORS receiver (RTK out standard)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200LITE",
+        "definition": "12 channel L1/L2 CORS receiver (RTK-SmartStation out standard)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GRX1200PRO",
+        "definition": "12 channel L1/L2 CORS receiver (RTK out standard)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS07",
+        "definition": "320 channel GPS/GLO/GAL/BDS/QZSS/SBAS multi-frequency Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS08",
+        "definition": "72  channel GPS L1/L2, GLONASS Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS08PLUS",
+        "definition": "120 channel GPS L1/L2, GLONASS L1/L2 Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS09",
+        "definition": "120 channel GPS L1/L2, GLONASS Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS10",
+        "definition": "120/555 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency receiver, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS12",
+        "definition": "120 channel GPS L1/L2, GLONASS Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS14",
+        "definition": "120 channel GPS/GLO/GAL/BDS/SBAS dual-frequency Smartantenna, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS15",
+        "definition": "120/555 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency Smartantenna, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS16",
+        "definition": "555 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency Smartantenna, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS18",
+        "definition": "555 channel GPS/GLO/GAL/BDS/QZSS/SBAS/L-BAND multi-frequency Smartantenna, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GS25",
+        "definition": "120/555 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency receiver, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1210",
+        "definition": "12 channel GPS L1 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1210+",
+        "definition": "16 channel GPS L1 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1220",
+        "definition": "12 channel L1/L2 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1220+",
+        "definition": "16 channel GPS L1/L2 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1220+GNSS",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1230",
+        "definition": "12 channel GPS L1/L2 receiver (RTK in/out standard)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1230+",
+        "definition": "16 channel GPS L1/L2 receiver (RTK in/out standard)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1230+GNSS",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou receiver (RTK in/out)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA GX1230GG",
+        "definition": "14 GPS, 12 GLONASS L1/L2 receiver (RTK in/out)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ICG30",
+        "definition": "320 channel GPS/GLO/GAL/BDS multi-frequency GNSS RTK rover",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ICG60",
+        "definition": "120 channel GPS L1/L2/L5, GLONASS, Galileo, BeiDou Smartantenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ICG70",
+        "definition": "555 channel GPS/GLO/GAL/BDS/L-band multi-frequency Smartantenna, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ICG81",
+        "definition": "120 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency receiver, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA ICG82",
+        "definition": "Dual 120 channel GPS/GLO/GAL/BDS/SBAS/L-band multi-frequency receiver, RTK in/out, Ntrip",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA MC1000",
+        "definition": "12 channel L1/L2 receiver (Machine Control)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA MC500",
+        "definition": "12 channel L1/L2 receiver, Ruggedized CORS",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA MNA950GG",
+        "definition": "14 GPS, 12 GLONASS L1/L2 receiver (RTK in/out) PowerAntenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA MNS1250GG",
+        "definition": "14 GPS, 12 GLONASS L1/L2 receiver (RTK in/out) PowerBox",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA RS500",
+        "definition": "12 channel L1/L2 receiver, Advanced CORS",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR260",
+        "definition": "6 channel L1 receiver, code-only",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR261",
+        "definition": "6 channel L1 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR299",
+        "definition": "9 channel L1/L2 receiver, internal antenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR299E",
+        "definition": "9 channel L1/L2 receiver, external antenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR399",
+        "definition": "9 channel L1/L2 receiver, internal antenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR399E",
+        "definition": "9 channel L1/L2 receiver, external antenna",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR510",
+        "definition": "12 channel L1    receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR520",
+        "definition": "12 channel L1/L2 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR530",
+        "definition": "12 channel L1/L2 receiver (RTK option)",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR9400",
+        "definition": "12 channel L1 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR9500",
+        "definition": "12 channel L1/L2 receiver",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "LEICA SR9600",
+        "definition": "12 channel L1/L2 receiver, engine = to  9500,CRS1000",
+        "manufacturer": "Leica",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "MAGELLAN PM-500",
+        "definition": "L1/L2 GPS, L1/L2 GLONASS integrated rcvr/antenna",
+        "manufacturer": "MAGELLAN",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "MINIMAC 2816",
+        "definition": "L1/L2 Field unit",
+        "manufacturer": "MINIMAC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "MINIMAC 2816AT",
+        "definition": "L1/L2 Rack-mounted (used in CIGNET and NIED)",
+        "manufacturer": "MINIMAC",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM NCT-2000D",
+        "definition": "GPS L1/L2/C1/P1/P2 Receiver",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM NCT-2030M",
+        "definition": "GPS L1/L2/C1/P1/P2 Receiver, 1PPS,CAN,Event",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM RT-3010S",
+        "definition": "GPS L1/L2/C1/P1/P2 Integrated Receiver/Antenna/Radio",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM RT-3020M",
+        "definition": "GPS L1/L2/C1/P1/P2 Receiver/Radio, 1PPS,CAN,Event",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM RT-3020S",
+        "definition": "GPS L1/L2/C1/P1/P2 Receiver/Radio",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM SF-2000",
+        "definition": "GPS L1/L2/C1/P1/P2/L-Band Receiver, CAN",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM SF-2040G",
+        "definition": "GPS L1/L2/C1/P1/P2/L-Band Integrated Receiver/Antenna",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM SF-2050G",
+        "definition": "GPS L1/L2/C1/P1/P2/L-Band Receiver",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM SF-2050M",
+        "definition": "GPS L1/L2/C1/P1/P2/L-Band Receiver, 1PPS,CAN,Event",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NAVCOM SF-2050R",
+        "definition": "GPS L1/L2/C1/P1/P2/L-Band Receiver, 1PPS,CAN,Event",
+        "manufacturer": "NavCom",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV 15A",
+        "definition": "16 channel GPS L1/L5, Galileo L1/E5a, SBAS L1/L5",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 16
+    },
+    {
+        "term": "NOV EURO4-1.00-222",
+        "definition": "12-ch L1 or L1/L2 OEM4 board, Euro card size. RTK,WAAS,other options may be enabled in firmware.",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "NOV GRCN",
+        "definition": "GGSP Receiver",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "NOV GTR",
+        "definition": "GGSP Receiver",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "NOV MILLEN-RT2",
+        "definition": "L1/L2 GPS 2cm RTK Fixed Integer, 12 channel.",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "NOV MILLEN-RT2OS",
+        "definition": "L1 GPS 20cm RTK Float, 12 channel.",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV MILLEN-STD",
+        "definition": "L1/L2 GPS Base Station, 12 channel.",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV MILLEN-STDW",
+        "definition": "L1/L2 GPS Base Station with WAAS, 10+1 channel.",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV OEM4-G2",
+        "definition": "24-ch L1 or L1/L2, SBAS, RT-2 mode",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 24
+    },
+    {
+        "term": "NOV OEM6",
+        "definition": "120 channel GPS L1/L2/L2C/L5, GLONASS L1/L2, GAL E1,E5a, BeiDou, SBAS, L-Band",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV OEM7",
+        "definition": "555 channel, GPS L1/L2/L5, GLONASS L1/L2/L3/L5, GALILEO E1/E5/AltBOC/E5a/E5b/E6, BeiDou B1/B2/B3 QZSS L1/L2/L5/L6, NavIC L5, SBAS L1/L5, L-Band",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV OEMV1",
+        "definition": "14 GPS L1, 2 SBAS, 1 L-Band",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "NOV OEMV1G",
+        "definition": "14 GPS L1, 12 GLONASS L1, 2 SBAS",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": true,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "NOV OEMV2",
+        "definition": "14 GPS L1/L2, 12 GLONASS L1/L2, 2 SBAS",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV OEMV3",
+        "definition": "14 GPS L1/L2,5 GPS L5,12 GLONASS L1/L2,2 SBAS,1 LBand",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV OEMV3-RT2",
+        "definition": "14 GPS L1/L2+RT-2,5 GPS L5,12 GLO L1/L2,2 SBAS,1 LBand",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "NOV WAASGII",
+        "definition": "WAAS Reference Receiver G-II",
+        "manufacturer": "Novatel",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "PANDA PD318",
+        "definition": "PD318,440 channel BDS-2 B1I/B2I/B3I, BDS-3 B1I/B3I /B1c/B2, GPS L1 C/A,L1C/L2P/L5, GLONASS L1/L2, Galileo E1/E5a/E5b, SBAS L1 C/A multi-frequency reference station receiver",
+        "manufacturer": "PANDA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "PANDA PD51A",
+        "definition": "PD51A,555 channel BDS-2 B1I/B2I/B3I, BDS-3 B1I/B3I /B1c/B2, GPS L1 C/A,L1C/L2P/L5, GLONASS L1/L2, Galileo E1/E5a/E5b, SBAS L1 C/A multi-frequency reference station receiver",
+        "manufacturer": "PANDA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "PANDA PD9",
+        "definition": "PD9,394 channel BDS-2 B1I/B2I/B3I, BDS-3 B1I/B3I /B1c/B2a, GPS L1 C/A,L1C/L2P/L5, GLONASS L1/L2, Galileo E1/E5a/E5b, QZSS L1 C/A,L1C/L2C/L5, SBAS L1 C/A multi-frequency integrated receiver/ antenna",
+        "manufacturer": "PANDA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "PREXISO G4",
+        "definition": "72  channel GPS L1/L2, GLONASS integrated GNSS receiver/antenna",
+        "manufacturer": "Prexiso",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "PREXISO G5",
+        "definition": "120 channel GPS L1/L2, GLONASS, Galileo, BeiDou integrated GNSS receiver/antenna",
+        "manufacturer": "Prexiso",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "QIANXUN ISTATION18",
+        "definition": "540 channel GPS, GLO, GAL, BDS, QZSS, SBAS reference receiver",
+        "manufacturer": "INTELLIGENCE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RAYMAND IRNET-G3B",
+        "definition": "372 channel GPS L1/L2/L2C/L5, GLO L1/L2, BDS B1/B2, SBAS reference station receiver",
+        "manufacturer": "RAYMAND",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RAYMAND IRO-G3B",
+        "definition": "372 channel GPS L1/L2/L2C/L5, GLO L1/L2, BDS B1/B2, SBAS integrated receiver/antenna",
+        "manufacturer": "RAYMAND",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RNG FASA+",
+        "definition": "L1/L2+L2C/L5 GLONASS L1/L2 with 2 Maxwell-6 ASIC, eth + SBAS, 440 channel",
+        "manufacturer": "RUSNAVGEOSET",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RNG FAZA2",
+        "definition": "480 channels GPS/GLO/GAL/BDS/QZSS/IRNSS/SBAS L-Band multi-frequency receiver",
+        "manufacturer": "RUSNAVGEOSET",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RNG SMAXGEO",
+        "definition": "S-MAX GEO, 240 channels GPS L1/L2, GLONASS, BeiDou, Galileo, QZSS, SBAS, L-band integrated receiver/ant.",
+        "manufacturer": "RUSNAVGEOSET",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROCKWELL ZODIAC OEM",
+        "definition": "Rockwell Zodiac OEM",
+        "manufacturer": "Other",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-12",
+        "definition": "AOA TurboRogue (12 channel)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-12 RM",
+        "definition": "AOA TurboRogue (12 channel, rack mount)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-8",
+        "definition": "2 unit rack-mounted (big Rogue)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-800",
+        "definition": "1 unit rack-mounted (big Rogue)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-8000",
+        "definition": "AOA TurboRogue (field unit)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "ROGUE SNR-8100",
+        "definition": "AOA TurboRogue (rack mount)",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-8A",
+        "definition": "AOA MiniRogue -- not CONAN compatible",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ROGUE SNR-8C",
+        "definition": "AOA MiniRogue -- CONAN compatible",
+        "manufacturer": "Rogue/AOA",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RUIDE 680N GNSS",
+        "definition": "680N, 692 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "RUIDE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RUIDE R6I GNSS",
+        "definition": "R6I, 220 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "RUIDE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RUIDE R6P GNSS",
+        "definition": "PULSAR R6p, 336 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "RUIDE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RUIDE R8I GNSS",
+        "definition": "R8I, 692 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "RUIDE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "RUIDE R90I GNSS",
+        "definition": "R90ineo, 692 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "RUIDE",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SANDING T3 GNSS",
+        "definition": "T3, 440 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "SANDING",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SANDING T5 GNSS",
+        "definition": "T5, 692 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "SANDING",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SANDING T66PRO GNSS",
+        "definition": "T66pro, 336 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "SANDING",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SANDING T66V GNSS",
+        "definition": "T66V, 220 channel GPS, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "SANDING",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SANDING TCUBE S680N",
+        "definition": "Tcube S680N, 336 channel GPS, GLO, GAL, BDS, SBAS, integrated receiver/antenna",
+        "manufacturer": "SANDING",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ALTUS NR3",
+        "definition": "GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBoc, BDS B1/B2, IRNSS L5, QZSS L1/L2/L5, SBAS L1/L5 integrated receiver/antenna",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ALTUS_NR3",
+        "definition": "",
+        "manufacturer": "Septentrio",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX SB",
+        "definition": "Triple-freq GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS/Lband compact ruggedized receiver, WLAN/BT",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX-M",
+        "definition": "GPS L1/L2, GLO L1/L2, GAL E1, SBAS receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX-M2",
+        "definition": "GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBoc, BDS B1/B2, QZSS L1/L2/L5 SBAS receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT ASTERX-M3",
+        "definition": "GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBoc, BDS B1/B2, QZSS L1/L2/L5 SBAS receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT ASTERX-U",
+        "definition": "Quad-freq GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS/LBand dual-antenna ruggedized receiver, WLAN/BT/Cellular",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX1",
+        "definition": "L1 GPS/Galileo/SBAS, code & carrier, all-in-view",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX2",
+        "definition": "L1/L2 GPS/GLONASS, code & carrier, all-in-view",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX2E",
+        "definition": "L1/L2 GPS/GLO, 136 ch, all-in-view single antenna",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX2EH",
+        "definition": "L1/L2 GPS/GLO, 2*136 ch, all-in-view dual antenna",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX2EL",
+        "definition": "Dual-frequency GPS/GLO/GAL receiver + LBand demod.",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX3",
+        "definition": "Triple-frequency GPS/GLO/GAL receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT ASTERX4",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS/Lband receiver board",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT GETR",
+        "definition": "GGSP Receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "SEPT POLARX2",
+        "definition": "L1/L2,code & carrier,48 ch. all-in-view,up to 3 ant.",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 22
+    },
+    {
+        "term": "SEPT POLARX2C",
+        "definition": "L1/L2,code & carrier, all-in-view incl. 4 L2C ch.",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX2E",
+        "definition": "L1/L2,code & carrier,48 ch. all-in-view,up to 3 ant.",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3",
+        "definition": "L1/L2 GPS/GLO, 88 ch, reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3E",
+        "definition": "L1/L2 GPS/GLO/GAL, 136 ch, reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3EG",
+        "definition": "L1/L5 GPS/GAL, 136 ch, reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3ETR",
+        "definition": "L1/L2-L1/L5 GPS/GLO/GAL, 136 ch, ref/timing receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3G",
+        "definition": "L1/L5 GPS/GAL, 102 ch, reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX3TR",
+        "definition": "L1/L2-L1/L5 GPS/GLO/GAL, 88 ch, ref/timing receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX4",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT POLARX4 PRO",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT POLARX4TR",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT POLARX4TR PRO",
+        "definition": "Galileo receiver, RxTray-T LRU201 configuration",
+        "manufacturer": "Septentrio",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SEPT POLARX5",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX5E",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS reference receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX5S",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS scintillation monitoring receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARX5TR",
+        "definition": "Multi-frequency GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS reference and time transfer receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SEPT POLARXS",
+        "definition": "Triple-frequency GPS/GLO/GAL scintillation receiver",
+        "manufacturer": "Septentrio",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SETTOP M1-V1",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, SBAS",
+        "manufacturer": "SETTOPSurvey",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK GCX3",
+        "definition": "226 channel GPS/GLO/GAL/BDS/QZSS/SBAS integrated receiver/antenna, P/N 01-120650-11",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK GSR2600",
+        "definition": "GSR2600 L1/L2 RTK GPS receiver",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK GSR2700 RS",
+        "definition": "GSR2700 L1/L2 GPS receiver",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK GSR2700 RSX",
+        "definition": "GSR2700 L1/L2 GPS/GLONASS, 2 SBAS receiver",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK RADIAN",
+        "definition": "Radian L1/L2 RTK GPS receiver",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOK RADIAN_IS",
+        "definition": "Radian IS L1/L2 RTK GPS integrated receiver+antenna",
+        "manufacturer": "Sokkia",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH 660N GNSS",
+        "definition": "660N, 336 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH G1 GNSS",
+        "definition": "Galaxy G1, 692 channel GPS, GLO, GAL, BDS, QZSS, SBAS, integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH G1PLUS GNSS",
+        "definition": "Galaxy G1 Plus, 336 channel GPS, GLO, GAL, BDS, QZSS, IRNSS, SBAS integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH G6 GNSS",
+        "definition": "Galaxy G6, 336 channel GPS, GLO, GAL, BDS, QZSS, SBAS, integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH NET-S8",
+        "definition": "220 channel GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC, BDS B1/B2/B3 reference station receiver",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH NET-S8+",
+        "definition": "220 channel GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC, BDS B1/B2/B3 Maxwell-6 reference station receiver",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH NET-S9",
+        "definition": "692/336/220 channel GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC, BDS B1/B2/B3 reference station receiver",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S82-2013 GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS integrated rcvr/ant. with multi-frequency support and round cover",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S82T GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, SBAS integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S82V GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, SBAS integrated rcvr/ant. with multi-frequency support",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S82V2 GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS integrated rcvr/ant. with multi-frequency support and round cover",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S86 GNSS",
+        "definition": "S86, 220 channel GPS, GLO, GAL, BDS, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S86-2013 GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS integrated rcvr/ant. with multi-frequency support and square cover",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SOUTH S86T GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS integrated rcvr/ant. with multi-frequency support and square cover",
+        "manufacturer": "South Surveying",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPECTRA SP60",
+        "definition": "SP60, 240 channels GPS L1/L2, GLONASS, BeiDou, Galileo, QZSS, SBAS, L-band integrated receiver/ant.",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPECTRA SP80",
+        "definition": "SP80, 240 channels GPS L1/L2/L5, GLONASS, BeiDou, Galileo, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPECTRA SP85",
+        "definition": "SP85, 600 channels GPS L1/L2/L5, GLO L1/L2/L3, BDS B1/B2, GAL E1/E2/E5ab, QZSS L1/L2/L5, IRNSS L5, SBAS L1/L5, L-Band integrated receiver/antenna",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPECTRA SP90M",
+        "definition": "SP90m, 480 channels GPS, GLO, GAL, BDS, QZSS, IRNSS SBAS, L-Band multi-frequency receiver",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP 68410_10",
+        "definition": "EPOCH 50, 220 channels GPS L1/L2/L5, GLONASS, Galileo, SBAS integrated receiver/antenna",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP GEODIMETER-L1",
+        "definition": "Geodimeter GPS Module L1",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP GEOTRACER100",
+        "definition": "Geotracer 100 Dual Frequency Receiver, 12 channels, C/A code on L1 and squaring on L2, Trimble 4000 SS fmade for Geotronics AB)",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP GEOTRACER2200",
+        "definition": "",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    },
+    {
+        "term": "SPP GEOTRACER3220",
+        "definition": "Geotracer Dual Frequency Receiver, 12 channels",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP GEOTRACER3320",
+        "definition": "Geotracer GPS-Glonass Receiver",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "SPP PROMARK700",
+        "definition": "ProMark 700, 220 channels GPS/GLONASS L1/L2, SBAS integrated receiver/antenna",
+        "manufacturer": "",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S10",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS integrated receiver/antenna, embedded electronic tilt sensor",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S700A",
+        "definition": "700 channel GPS L1/L2+L2C/L5, GLO L1/L2 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S8+ GNSS",
+        "definition": "120 channel GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S800",
+        "definition": "555 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3/L5 BDS B1/B2/B3, GAL E1/E2a+E2b/E6, QZSS, SBAS, IRNSS integrated receiver/antenna,",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S800A",
+        "definition": "394 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C BDS B1/B2/B3, GAL E1/E2a+E2b, QZSS, SBAS, L-Band Atlas H10/H30/H100 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S850A",
+        "definition": "700 channel GPS L1/L2+L2C/L5, GLO L1/L2 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S900",
+        "definition": "555 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3 GAL E1/E5a+E5b/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, NAVIC L5 integrated receiver/antenna,",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S900A",
+        "definition": "394 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C GAL E1/E5a+E5b, BDS B1/B2/B3, QZSS L1/L2/L5, SBAS L1 L-Band Atlas H10/H30/H100 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S900A NEW",
+        "definition": "800 channel GPS L1/L2+L2C/L5, GLO L1/L2/L3 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5, L-Band Atlas NAVIC L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S900T",
+        "definition": "336 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3 GAL E1/E5a+E5b/E6, BDS B1/B2/B3,  QZSS L1/L2/L5, SBAS L1/L5, NAVIC L5 integrated receiver/antenna,",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S980",
+        "definition": "555 channel GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3 BDS B1/B2/B3, GAL E1/E5a+E5b/E6, QZSS L1/L2/L5/L6, SBAS L1/L5, NAVIC L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S980A",
+        "definition": "800 channel GPS L1/L2+L2C/L5, GLO L1/L2/L3 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5, L-Band Atlas NAVIC L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S990A",
+        "definition": "800 channel GPS L1/L2+L2C/L5, GLO L1/L2/L3 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5, L-Band Atlas NAVIC L5 integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S9I",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLO, GAL, BDS, SBAS integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S9II GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX S9III+ GNSS",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS integrated receiver/antenna",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX SC200",
+        "definition": "220 channel GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou reference station receiver",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX SC2000",
+        "definition": "555 channel GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS multi-frequency reference station receiver",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX SC2200",
+        "definition": "555 channel GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS multi-frequency reference station receiver",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX SC600",
+        "definition": "555 channel GPS/GLO/GAL/BDS/SBAS/QZSS multi-frequency multi-purpose receiver",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "STONEX SC600A",
+        "definition": "1100 channel GPS/GLO/GAL/BDS/SBAS/QZSS/IRNSS multi-frequency multi-purpose receiver",
+        "manufacturer": "Stonex",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "THA MBOC",
+        "definition": "Galileo receiver - THALES",
+        "manufacturer": "Galileo",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "THALES 5202",
+        "definition": "TIGA receiver",
+        "manufacturer": "THALES",
+        "status": "deprecated",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TI4100",
+        "definition": "4-channel L1/L2, P1/P2 receiver",
+        "manufacturer": "TEXAS INST.",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENG2100B",
+        "definition": "120 channel GPS L1/L2+L2C, GLO L1/L2, Galileo, BeiDou, SBAS integrated Pentax receiver/antenna for Base",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENG2100R",
+        "definition": "120 channel GPS L1/L2+L2C, GLO L1/L2, Galileo, BeiDou, SBAS integrated Pentax receiver/antenna for Rover",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENG3100-R1",
+        "definition": "136 channel GPS L1/L2+L2C, GLO L1/L2, SBAS integrated Pentax receiver/antenna (AsteRx2e receiver board)",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENG3100-R2",
+        "definition": "136 channel GPS L1/L2+L2C, GLO L1/L2, BDS B1/B2, SBAS integrated Pentax receiver/antenna (XXB2 rcvr board)",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENG6J2",
+        "definition": "555 channel GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5ab, BDS B1/B2, QZSS L1/L2C/L5, SBAS integrated Pentax receiver/antenna",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TIASAHI PENSMT888-3G",
+        "definition": "136 channel GPS L1/L2+L2C, GLO L1/L2, SBAS integrated Pentax receiver/antenna",
+        "manufacturer": "TI ASAHI",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-DX1",
+        "definition": "L1/L2 receiver(Trimble)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-R1",
+        "definition": "L1 receiver(Ashtech)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-R1D",
+        "definition": "L1/L2 receiver(Ashtech)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-R1DP",
+        "definition": "L1/L2 receiver(Ashtech)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-R1DY",
+        "definition": "L1/L2 receiver(Ashtech)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-S1",
+        "definition": "L1 receiver(Ashtech)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON GP-SX1",
+        "definition": "L1 receiver(Trimble)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON TT4000SSI",
+        "definition": "L1/L2 receiver(Trimble)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TOPCON TURBO-SII",
+        "definition": "L1/L2 receiver(AOA)",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS E_GGD",
+        "definition": "Same as JPS E_GGD",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS EUROCARD",
+        "definition": "Same as JPS EUROCARD",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS GB-1000",
+        "definition": "Dual-frequency GPS/GLONASS",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 22
+    },
+    {
+        "term": "TPS GB-500",
+        "definition": "Dual-frequency GPS/GLONASS",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS GR3",
+        "definition": "GNSS integrated receiver/antenna/modem - Topcon G3 GNSS board",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS GR5",
+        "definition": "GNSS integrated receiver/antenna - 216 channel",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_GD",
+        "definition": "P/N 01-830401-01 Integrated antenna+receiver",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_GGD",
+        "definition": "P/N 01-840401-01 Antenna+receiver GPS/GLONASS",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_HR",
+        "definition": "452 channel GPS/GLO/GAL/BDS/QZSS/SBAS/L-band integrated receiver/antenna, P/N 1006276-01",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_LITE",
+        "definition": "P/N 01-840802-03 Antenna+receiver+wireless, GPS",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_PLUS",
+        "definition": "P/N 01-840801-01 Antenna+receiver+wireless, G/G",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS HIPER_VR",
+        "definition": "226 channel GPS/GLO/GAL/BDS/QZSS/IRNSS(L) SBAS/L-band integrated receiver/antenna, P/N 1016578-xx",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS LEGACY",
+        "definition": "Same as JPS LEGACY",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS NET-G3A",
+        "definition": "GPS/GLONASS/Galileo 144 channel receiver - Topcon E2G3 GNSS board",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS NET-G5",
+        "definition": "GPS/GLONASS/Galileo/BeiDou/SBAS 452 channel geodetic receiver - Topcon B310 GNSS board",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS NETG3",
+        "definition": "GPS/GLONASS/Galileo 72 channel receiver",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 22
+    },
+    {
+        "term": "TPS ODYSSEY_E",
+        "definition": "receiver L1/L2 with integrated CE device",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TPS ODYSSEY_I",
+        "definition": "Integrated antenna/receiver L1/L2",
+        "manufacturer": "Topcon",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000S",
+        "definition": "Single frequency model",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SE",
+        "definition": "Single frequency with internal antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SL",
+        "definition": "Single frequency model",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SLD",
+        "definition": "Dual freq. L1 C/A, L2 squaring",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SSE",
+        "definition": "Dual freq. P-code on L1 and L2, xcr Y-code",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 12
+    },
+    {
+        "term": "TRIMBLE 4000SSI",
+        "definition": "Dual freq. P-code on L1 and L2, xcr Y-code (\"Geodetic Surveyor 4000SSi\")",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SSI-SS",
+        "definition": "Dual freq. P-code on L1 and L2, xcr Y-code (\"Site Surveyor 4000SSi\")",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SST",
+        "definition": "Dual freq. L1 C/A, L2 squaring; L2 P-code optional",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000ST",
+        "definition": "Dual frequency model",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000ST S",
+        "definition": "Single frequency model",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4000SX",
+        "definition": "Single frequency model",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4400",
+        "definition": "L1/L2 receiver, enhanced L2 tracking",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4600",
+        "definition": "L1 receiver, with internal antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4700",
+        "definition": "Total station 4700 (external antenna)",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 4800",
+        "definition": "L1/enhanced L2 receiver, with internal antenna and radio modem, p/n: 32119-XX",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 5700",
+        "definition": "L1/L2 receiver with Maxwell-4 ASIC",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 5800",
+        "definition": "L1/L2 integrated receiver/antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE 7400MSI",
+        "definition": "L1/L2 receiver, enhanced L2 tracking",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE ALLOY",
+        "definition": "GPS L1/L2/L5 GLO L1/L2/L3 GAL E1/E2/E5ab/E6 BDS B1/B2/B3 IRNSS L5/S1, QZSS, SBAS, 672 channels, Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE BD990",
+        "definition": "GPS L1/L2/L5 GLO L1/L2/L3 GAL E1/E5ab/E6 BDS B1/B2/B3 QZSS L1/L2/L5 IRNSS L5 Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE BD992",
+        "definition": "GPS L1/L2/L5 GLO L1/L2/L3 GAL E1/E5ab/E6 BDS B1/B2/B3 QZSS L1/L2/L5 IRNSS L5 Maxwell 7 dual antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE BD992-INS",
+        "definition": "GPS L1/L2/L5 GLO L1/L2/L3 GAL E1/E5ab/E6 BDS B1/B2/B3 QZSS L1/L2/L5 IRNSS L5 Maxwell 7 dual antenna INS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE GEODESIST P",
+        "definition": "Dual freq. P-code on L1 and L2 (same box as SST)",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE MS750",
+        "definition": "Dual freq. L1 C/A, L1/L2 full cycle RTK rcvr",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE NETR3",
+        "definition": "L1/L2+L2C/L5 GLONASS L1/L2 Maxwell-5 ASIC,ethernet",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE NETR5",
+        "definition": "L1/L2+L2C/L5 GLONASS L1/L2 Maxwell-5 ASIC,eth + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE NETR8",
+        "definition": "L1/L2+L2C/L5 GLONASS L1/L2 Maxwell-5 ASIC,eth + SBAS, with external frequency support",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE NETR9",
+        "definition": "L1/L2+L2C/L5 GLONASS L1/L2 with 2 Maxwell-6 ASIC, eth + SBAS, 440 channel",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE NETRS",
+        "definition": "L1/L2+L2C with Maxwell-5 ASIC, ethernet, ext freq.",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R10",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou integrated rec/ant Maxwell 6",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R10-2",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou integrated rec/ant Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R12",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou integrated rec/ant Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R12I",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou integrated rec/ant Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R2",
+        "definition": "L1/L2+L2C GLO L1/L2 SBAS L1 GAL E1/E5ab BDS B1/B2 integrated receiver/antenna with Maxwell-6 (scalable: track terms dependent on purchase options)",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R4",
+        "definition": "L1/L2 GLO L1/L2 integrated receiver/antenna with Maxwell-5 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R4-2",
+        "definition": "L1/L2 GLO L1/L2 integrated receiver/antenna with Maxwell-6 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R4-3",
+        "definition": "L1/L2+L2C GLO L1/L2 SBAS L1 GAL E1/E5A/E5B BDS B1/B2/ B3 w/Maxwell-6 integrated receiver/antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R5",
+        "definition": "L1/L2 GLO L1/L2 receiver with Maxwell-5 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R6",
+        "definition": "L1/L2+L2C GLO L1/L2 integrated receiver/antenna with Maxwell-5 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R6-2",
+        "definition": "L1/L2+L2C GLO L1/L2 integrated receiver/antenna with Maxwell-5 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R6-3",
+        "definition": "L1/L2+L2C GLO L1/L2 integrated receiver/antenna with Maxwell-6 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R6-4",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2/L3 SBAS L1/L5 GAL E1/E5A/E5B BDS B1/B2/B3 w/Maxwell-6 integrated receiver/antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R7",
+        "definition": "L1/L2+L2C 5700 chassis w/ Maxwell-5 ASIC",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R7 GNSS",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2 5700 chassis w/ Maxwell-5 ASIC + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R8",
+        "definition": "L1/L2+L2C integrated receiver/antenna w/ Maxwell-5",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R8 GNSS",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2 integrated receiver/antenna with Maxwell-5 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R8 GNSS3",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2 integrated receiver/antenna with Maxwell-6 + SBAS",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R8-4",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2/L3 SBAS L1/L5 GAL E1/E5A/E5B BDS B1/B2/B3 w/Maxwell-6 integrated receiver/antenna",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R8S",
+        "definition": "L1/L2+L2C/L5 GLO L1/L2/L3 SBAS L1/L5 GAL E1/E5a/E5b BDS B1/B2 w/Maxwell-6 integrated receiver/antenna (scalable: track terms dependent on purchase options)",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE R9S",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou with Maxwell 6",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE SPS852",
+        "definition": "GPS L1/L2+L2C/L5 GLO L1/L2, GAL, SBAS, 220 channel",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE SPS855",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou with Maxwell 6",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE SPS985",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo, BeiDou integrated rec/ant Maxwell 6",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "TRIMBLE SPS986",
+        "definition": "GPS L1/L2/L5  GLO L1/L2/L3  GAL E1/E2/E5ab/E6 BDS B1/B2/B3 integrated rec/ant Maxwell 7",
+        "manufacturer": "Trimble",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "UNICORE UR380",
+        "definition": "384 channel GPS L1/L2+L2C/L5, GLO L1/L2, BDS B1/B2/B3 reference station receiver",
+        "manufacturer": "Unicore Communications",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "UNICORE UR4B0",
+        "definition": "432 channel GPS L1/L2+L2C/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b, QZSS L1/L2/L5 reference station receiver",
+        "manufacturer": "Unicore Communications",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": null
+    },
+    {
+        "term": "ZEISS GEPOS",
+        "definition": "SAPOS receiver",
+        "manufacturer": "Zeiss",
+        "status": "accepted",
+        "is_single_signal": false,
+        "maximum_satellites": 50
+    }
+]

@@ -6,19 +6,39 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
+use OwenIt\Auditing\Contracts\Auditable;
 
-class Vocabulary extends Model
+class Vocabulary extends Model implements Auditable
 {
+    use \OwenIt\Auditing\Auditable;
+
     /** @use HasFactory<\Database\Factories\TermFactory> */
     use HasFactory;
 
+    /**
+     * Attributes to be mass fillable.
+     *
+     * @var array
+     */
     protected $fillable = [
         'slug',
         'name',
+        'description',
         'uuid',
     ];
 
-    public function terms() : HasMany
+    /**
+     * Attributes to include in the Audit.
+     *
+     * @var array
+     */
+    protected $auditInclude = [
+        'slug',
+        'name',
+        'description',
+    ];
+
+    public function terms(): HasMany
     {
         return $this->hasMany(Term::class);
     }
@@ -34,6 +54,6 @@ class Vocabulary extends Model
 
     public function getRouteKeyName()
     {
-        return 'slug';
+        return 'uuid';
     }
 }

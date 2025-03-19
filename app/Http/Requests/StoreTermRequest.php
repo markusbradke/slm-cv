@@ -25,8 +25,8 @@ class StoreTermRequest extends FormRequest
     {
         return [
             'name' => 'required|max:255',
-            'category_id' => 'required|exists:categories,slug',
-            'definition' => 'nullable',
+            'vocabulary_id' => 'required|exists:vocabularies,id',
+            'definition' => 'required',
             'provenance' => 'nullable',
             'provenance_uri' => 'nullable|url:https,http',
             'discussion_url' => 'nullable|url:https,http',

@@ -11,9 +11,11 @@ import { useInitials } from '@/hooks/use-initials';
 import { cn } from '@/lib/utils';
 import { type BreadcrumbItem, type NavItem, type SharedData } from '@/types';
 import { Link, usePage } from '@inertiajs/react';
-import { BookOpen, Folder, LayoutGrid, Menu, Search, WholeWord } from 'lucide-react';
+import { BookOpen, BookOpenText, Github, LayoutGrid, Menu, Search, Users, WholeWord } from 'lucide-react';
 import AppLogo from './app-logo';
 import AppLogoIcon from './app-logo-icon';
+import { useState } from 'react';
+import SearchCommand from './search-command';
 
 const mainNavItems: NavItem[] = [
     {
@@ -24,25 +26,30 @@ const mainNavItems: NavItem[] = [
     {
         title: 'Vocabularies',
         href: '/vocabularies',
-        icon: WholeWord,
+        icon: BookOpen,
     },
     {
         title: 'Terms',
         href: '/terms',
         icon: WholeWord,
     },
+    {
+        title: 'Contributing',
+        href: '/contributing',
+        icon: Users,
+    },
 ];
 
 const rightNavItems: NavItem[] = [
     {
         title: 'Repository',
-        href: 'https://github.com/international-gnss-service',
-        icon: Folder,
+        href: 'https://github.com/markusbradke/slm-cv.git',
+        icon: Github,
     },
     {
         title: 'API Documentation',
         href: '/api/documentation',
-        icon: BookOpen,
+        icon: BookOpenText,
     },
 ];
 
@@ -53,9 +60,12 @@ interface AppHeaderProps {
 }
 
 export function AppHeader({ breadcrumbs = [] }: AppHeaderProps) {
+    const [open, setOpen] = useState(false);
+
     const page = usePage<SharedData>();
     const { auth } = page.props;
     const getInitials = useInitials();
+
     return (
         <>
             <div className="border-sidebar-border/80 border-b">
@@ -136,9 +146,15 @@ export function AppHeader({ breadcrumbs = [] }: AppHeaderProps) {
 
                     <div className="ml-auto flex items-center space-x-2">
                         <div className="relative flex items-center space-x-1">
-                            <Button variant="ghost" size="icon" className="group h-9 w-9 cursor-pointer">
+                            {/* <Button 
+                                onClick={() => setOpen(true)}
+                                variant="ghost" 
+                                size="icon" 
+                                className="group h-9 w-9 cursor-pointer"
+                            >
                                 <Search className="!size-5 opacity-80 group-hover:opacity-100" />
-                            </Button>
+                            </Button> */}
+                            <SearchCommand />
                             <div className="hidden lg:flex">
                                 {rightNavItems.map((item) => (
                                     <TooltipProvider key={item.title} delayDuration={0}>
@@ -162,38 +178,38 @@ export function AppHeader({ breadcrumbs = [] }: AppHeaderProps) {
                                 ))}
                             </div>
                         </div>
-                        
+
                         <DropdownMenu>
-                            {auth?.user?.avatar && 
-                            <DropdownMenuTrigger asChild>
-                                <Button variant="ghost" className="size-10 rounded-full p-1">
-                                    <Avatar className="size-8 overflow-hidden rounded-full">
-                                        <AvatarImage src={auth.user.avatar} alt={auth.user.name ?? 'User'} />
-                                    </Avatar>
-                                </Button>
-                            </DropdownMenuTrigger>
-                            }
-                            {auth?.user ? (
-                            <DropdownMenu>
+                            {auth?.user?.avatar && (
                                 <DropdownMenuTrigger asChild>
                                     <Button variant="ghost" className="size-10 rounded-full p-1">
                                         <Avatar className="size-8 overflow-hidden rounded-full">
                                             <AvatarImage src={auth.user.avatar} alt={auth.user.name ?? 'User'} />
-                                            <AvatarFallback className="rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white">
-                                                {getInitials(auth.user.name ?? 'User')}
-                                            </AvatarFallback>
                                         </Avatar>
                                     </Button>
                                 </DropdownMenuTrigger>
-                                <DropdownMenuContent className="w-56" align="end">
-                                    <UserMenuContent user={auth.user} />
-                                </DropdownMenuContent>
-                            </DropdownMenu>
-                        ) : (
-                            <Link href="/login">
-                                <Button variant="outline">Login</Button>
-                            </Link>
-                        )}
+                            )}
+                            {auth?.user ? (
+                                <DropdownMenu>
+                                    <DropdownMenuTrigger asChild>
+                                        <Button variant="ghost" className="size-10 rounded-full p-1">
+                                            <Avatar className="size-8 overflow-hidden rounded-full">
+                                                <AvatarImage src={auth.user.avatar} alt={auth.user.name ?? 'User'} />
+                                                <AvatarFallback className="rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white">
+                                                    {getInitials(auth.user.name ?? 'User')}
+                                                </AvatarFallback>
+                                            </Avatar>
+                                        </Button>
+                                    </DropdownMenuTrigger>
+                                    <DropdownMenuContent className="w-56" align="end">
+                                        <UserMenuContent user={auth.user} />
+                                    </DropdownMenuContent>
+                                </DropdownMenu>
+                            ) : (
+                                <Link href="/login" className="cursor-pointer">
+                                    <Button variant="outline">Login</Button>
+                                </Link>
+                            )}
                         </DropdownMenu>
                     </div>
                 </div>

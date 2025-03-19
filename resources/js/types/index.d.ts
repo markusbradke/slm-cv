@@ -36,6 +36,7 @@ export interface User {
     email: string;
     avatar?: string;
     email_verified_at: string | null;
+    role?: string;
     created_at: string;
     updated_at: string;
     [key: string]: unknown; // This allows for additional properties...
@@ -43,8 +44,10 @@ export interface User {
 
 export interface Vocabulary {
     id: number;
+    uuid: string;
     slug: string;
     name: string;
+    description?: string;
     terms_count?: number;
     created_at: string;
     updated_at: string;
@@ -52,10 +55,16 @@ export interface Vocabulary {
 
 export interface Term {
     id: number;
+    uuid: string;
     name: string;
     definition?: string;
+    provenance?: string;
+    provenance_uri?: string;
+    discussion_url?: string;
+    notes?: string;
+    aliases?: string;
     vocabulary: Vocabulary;
-    status: string;
+    status: 'pending' | 'rejected' | 'accepted' | 'deprecated';
     created_at: string;
     updated_at: string;
 }

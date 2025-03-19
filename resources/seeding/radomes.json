@@ -1,0 +1,344 @@
+[
+    {
+        "term": "ARFC",
+        "definition": "Conical ABS radome with white UV resistant paint, diameter: 371 mm, thickness: 2.54 mm",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "ARFS",
+        "definition": "Hemispherical ABS radome with white UV resistant paint, diameter: 368 mm, thickness: 2 mm",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "AUST",
+        "definition": "Australian radome: hemispherical High Impact Clear Perspex",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "BEVA",
+        "definition": "Austrian dome with cylinders and spherical cap, elongated design",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "CAFG",
+        "definition": "Kearney-Powerglass fiberglass enclosure, used in California by USGS&early SCIGN sites(PVEP,TRAK,HOLC)",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "CHCD",
+        "definition": "CHC hemispherical, long life dome for CHCC220GR and CHCC220GR2",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "CNTS",
+        "definition": "ComNav Hemispherical radome for ComNav Antennas",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "CONE",
+        "definition": "Topcon p/n 10-031401-01 conical Reg-Ant Choke Ring Cap",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "DOME",
+        "definition": "Miscellaneous antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "DUTD",
+        "definition": "Delft University of Technology Design",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "EMRA",
+        "definition": "EMR clear spherical acrylic dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "ENCL",
+        "definition": "Miscellaneous antenna enclosure",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "GRAZ",
+        "definition": "xxxxxxxxxxxxxxx BEVA | xxxxxxxxxxxxxxx OLGA xxxxxxxxxxxxxxx PFAN xxxxxxxxxxxxxxx NONE",
+        "status": "accepted",
+        "is_valid": false
+    },
+    {
+        "term": "GSI4",
+        "definition": "TIGA Antenna Radome",
+        "status": "deprecated",
+        "is_valid": false
+    },
+    {
+        "term": "GSI8",
+        "definition": "TIGA Antenna Radome",
+        "status": "deprecated",
+        "is_valid": false
+    },
+    {
+        "term": "HGGS",
+        "definition": "Dome for HGGCYH8372, spherical shape",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "HITZ",
+        "definition": "HI-TARGET spherical dome used with HITAT45101CP",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "HXCS",
+        "definition": "Harxon spherical dome, used with the HXCCGX601A antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JAVC",
+        "definition": "Conical dome for JAV_RINGANT_G3T and JAVRINGANT_G5T chokering antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JAVD",
+        "definition": "Conical dome for JAV_RINGANT_G3T and JAVRINGANT_G5T chokering antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JPLA",
+        "definition": "JPL acrylic dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JVDM",
+        "definition": "Conical dome for JAVRINGANT_DM   chokering antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JVGR",
+        "definition": "Conical dome for JAVGRANT_G3+GP, JAV_GRANT-G3T+G, JAVGRANT_G3TJ+G, JAVGRANT_G5T+GP, JAVTRIUMPH_2+G and JAVTRIUMPH_2A+G",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "JVSD",
+        "definition": "Conical dome for JAVGRANT_G3+GP, JAV_GRANT-G3T+G, JAVGRANT_G3TJ+G, JAVGRANT_G5T+GP, JAVTRIUMPH_2+G, JAVTRIUMPH_2A+G, JAVTRIUMPH_2A+P",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "LEIC",
+        "definition": "Dome for LEICA AT303 and AT503, conical shape",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "LEIM",
+        "definition": "Dome for LEICA AR20",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "LEIS",
+        "definition": "Dome for DORNE MARGOLIN LEICA, spherical shape",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "LEIT",
+        "definition": "Dome for LEICA AR25",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "MMAC",
+        "definition": "Clear spherical dome covering antenna element with MiniMac MAC4647942 antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "NEVE",
+        "definition": "Conical radome for AERAT1675_542E",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "NOKE",
+        "definition": "Novatel radome",
+        "status": "deprecated",
+        "is_valid": ""
+    },
+    {
+        "term": "NONE",
+        "definition": "No antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "NOVC",
+        "definition": "NOVATEL conical dome used with the NOV533+CR antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "NOVS",
+        "definition": "NOVATEL spherical dome used with NOV750, NOV750.R4, NOV750.R5",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "OLGA",
+        "definition": "Austrian dome with cylinders and spherical cap, standard design",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "OSOD",
+        "definition": "Swedish dome developed by Lantmateriet in collabor- ation with Onsala Space Observatory",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "OSOP",
+        "definition": "Swedish dome with peg developed by Lanmateriet in collaboration with Onsala Space Observatory",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "OSOS",
+        "definition": "Short Swedish dome developed by Lantmateriet in col- laboration with Onsala Space Observatory",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "OSPS",
+        "definition": "Short Swedish dome with peg developed by Lantmateriet in collaboration with Onsala Space Observatory",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "PFAN",
+        "definition": "Austrian dome with cylinders and spherical cap, big size design",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "RPTR",
+        "definition": "Regal Plastic 19 inch dome for TRM33429.00+GP",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SCIS",
+        "definition": "SCIGN short antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SCIT",
+        "definition": "SCIGN tall antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SCPL",
+        "definition": "Polycarbonate enclosures, 24-48 diameter used at early SCIGN sites (CHIL, CMP9, CLAR, LEEP)",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SLGZ",
+        "definition": "Satlab GeoSolutions AB spherical dome used with SLGAT45101CP",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SNOW",
+        "definition": "ASHTECH conical \"snow\" antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "SPKE",
+        "definition": "SPECTRA PRECISION conical dome with spike, used with the SPP571908273 antenna, also sold by Aeroantenna and NovAtel",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "STHC",
+        "definition": "South hemispherical dome for STHCR3-G3",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "STXG",
+        "definition": "Dome for STONEX STXSA1500",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "STXM",
+        "definition": "Dome for STONEX STXSA1100",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "STXS",
+        "definition": "Dome for STONEX STXSA1800",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "TCWD",
+        "definition": "Trimble 24490-00 Conical Weather Dome Warning: This radome requires an additional dome groundplane affecting the ARP definition!",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "TPSD",
+        "definition": "Topcon hemispherical dome for PG-A1 and G3-A1",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "TPSH",
+        "definition": "Topcon hemispherical dome for choke ring antenna",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "TZGD",
+        "definition": "Trimble Hemisph. Dome for Zephyr Geodetic 41249.00",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "UNAV",
+        "definition": "UNAVCO clear spherical antenna dome",
+        "status": "accepted",
+        "is_valid": true
+    },
+    {
+        "term": "UNKN",
+        "definition": "Use for historic data periods only when radome status was not accurately recorded",
+        "status": "accepted",
+        "is_valid": true
+    }
+]

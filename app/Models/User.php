@@ -11,7 +11,7 @@ use Silber\Bouncer\Database\HasRolesAndAbilities;
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    use HasFactory, Notifiable, HasRolesAndAbilities;
+    use HasFactory, HasRolesAndAbilities, Notifiable;
 
     /**
      * The attributes that are mass assignable.

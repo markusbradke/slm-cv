@@ -2,26 +2,51 @@
 
 namespace App\Models;
 
+use ApiPlatform\Metadata\ApiResource;
 use App\Enums\TermStatus;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Str;
+use OwenIt\Auditing\Contracts\Auditable;
 
-class Term extends Model
+class Term extends Model implements Auditable
 {
+    use \OwenIt\Auditing\Auditable;
+
     /** @use HasFactory<\Database\Factories\TermFactory> */
     use HasFactory;
 
+    /**
+     * Attributes to be mass fillable.
+     *
+     * @var array
+     */
     protected $fillable = [
         'uuid',
-        'category_id',
-        'term',
+        'vocabulary_id',
+        'name',
         'definition',
         'provenance',
         'provenance_uri',
         'discussion_url',
-        'note',
+        'notes',
+        'status',
+    ];
+
+    /**
+     * Attributes to include in the Audit.
+     *
+     * @var array
+     */
+    protected $auditInclude = [
+        'vocabulary_id',
+        'name',
+        'definition',
+        'provenance',
+        'provenance_uri',
+        'discussion_url',
+        'notes',
         'status',
     ];
 
@@ -38,9 +63,17 @@ class Term extends Model
         });
     }
 
-    public function vocabulary() : BelongsTo
+    public function vocabulary(): BelongsTo
     {
         return $this->belongsTo(Vocabulary::class);
+    }
+
+    public function scopeFilter($query, array $filters)
+    {
+        $query->when($filters['search'] ?? false, fn ($query, $search) => $query
+            ->where('name', 'ilike', "%$search%")
+            ->orWhere('definition', 'ilike', "%$search%")
+        );
     }
 
     public function getRouteKeyName()

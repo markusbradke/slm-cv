@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Filters\StatusFilter;
+use App\Filters\TermSearchFilter;
 use App\Filters\VocabularyFilter;
 use App\Http\Requests\StoreTermRequest;
 use App\Http\Requests\UpdateTermRequest;
 use App\Models\Term;
+use App\Models\Vocabulary;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Pipeline;
 use Inertia\Inertia;
 
@@ -17,17 +21,22 @@ class TermController extends Controller
     public function index()
     {
         $terms = Pipeline::send(
-                Term::with('vocabulary')
-                    ->orderBy('name')
-            )
+            Term::with('vocabulary')
+                ->orderBy('name')
+        )
             ->through([
-                VocabularyFilter::class,
-            ])
+            StatusFilter::class,
+            TermSearchFilter::class,
+            VocabularyFilter::class,
+        ])
             ->thenReturn()
-            ->paginate(5);
+            ->paginate(20);
+
+        $vocabularies = Vocabulary::orderBy('name')->get();
 
         return Inertia::render('terms/index', [
             'terms' => $terms,
+            'vocabularies' => $vocabularies,
         ]);
     }
 
@@ -36,7 +45,11 @@ class TermController extends Controller
      */
     public function create()
     {
-        return Inertia::render('terms/create');
+        $vocabularies = Vocabulary::orderBy('name')->get();
+
+        return Inertia::render('terms/create', [
+            'vocabularies' => $vocabularies,
+        ]);
     }
 
     /**
@@ -44,7 +57,9 @@ class TermController extends Controller
      */
     public function store(StoreTermRequest $request)
     {
+        Gate::authorize('create', Term::class);
         Term::create($request->validated());
+        
         return redirect()->route('terms.index');
     }
 
@@ -53,7 +68,9 @@ class TermController extends Controller
      */
     public function show(Term $term)
     {
-        //
+        return Inertia::render('terms/show', [
+            'term' => $term->load('vocabulary'),
+        ]);
     }
 
     /**
@@ -61,7 +78,12 @@ class TermController extends Controller
      */
     public function edit(Term $term)
     {
-        //
+        $vocabularies = Vocabulary::orderBy('name')->get();
+
+        return Inertia::render('terms/edit', [
+            'term' => $term->load('vocabulary'),
+            'vocabularies' => $vocabularies,
+        ]);
     }
 
     /**
@@ -69,7 +91,10 @@ class TermController extends Controller
      */
     public function update(UpdateTermRequest $request, Term $term)
     {
-        //
+        Gate::authorize('update', $term);
+        $term->update($request->validated());
+
+        return redirect()->route('terms.index');
     }
 
     /**
@@ -77,6 +102,7 @@ class TermController extends Controller
      */
     public function destroy(Term $term)
     {
+        Gate::authorize('update', $term);
         $term->delete();
 
         return redirect()->route('terms.index');

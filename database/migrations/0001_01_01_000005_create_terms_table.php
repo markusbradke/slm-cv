@@ -26,6 +26,7 @@ return new class extends Migration
             $table->timestamps();
 
             $table->unique(['name', 'vocabulary_id']);
+            $table->index('name');
         });
     }
 

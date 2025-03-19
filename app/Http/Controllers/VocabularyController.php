@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreCategoryRequest;
-use App\Http\Requests\UpdateCategoryRequest;
+use App\Http\Requests\StoreVocabularyRequest;
+use App\Http\Requests\UpdateVocabularyRequest;
 use App\Models\Vocabulary;
+use Illuminate\Support\Facades\Gate;
 use Inertia\Inertia;
 
 class VocabularyController extends Controller
@@ -34,9 +35,11 @@ class VocabularyController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreCategoryRequest $request)
+    public function store(StoreVocabularyRequest $request)
     {
+        Gate::authorize('create', Vocabulary::class);
         Vocabulary::create($request->validated());
+
         return redirect()->route('vocabularies.index');
     }
 
@@ -45,7 +48,9 @@ class VocabularyController extends Controller
      */
     public function show(Vocabulary $vocabulary)
     {
-        //
+        return Inertia::render('vocabularies/show', [
+            'vocabulary' => $vocabulary->loadCount('terms'),
+        ]);
     }
 
     /**
@@ -53,15 +58,20 @@ class VocabularyController extends Controller
      */
     public function edit(Vocabulary $vocabulary)
     {
-        //
+        return Inertia::render('vocabularies/edit', [
+            'vocabulary' => $vocabulary,
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateCategoryRequest $request, Vocabulary $vocabulary)
+    public function update(UpdateVocabularyRequest $request, Vocabulary $vocabulary)
     {
-        //
+        Gate::authorize('update', $vocabulary);
+        $vocabulary->update($request->validated());
+        
+        return redirect()->route('vocabularies.index');
     }
 
     /**
@@ -69,7 +79,9 @@ class VocabularyController extends Controller
      */
     public function destroy(Vocabulary $vocabulary)
     {
+        Gate::authorize('delete', $vocabulary);
         $vocabulary->delete();
+
         return redirect()->route('vocabularies.index');
     }
 }

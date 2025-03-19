@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Enums\TermStatus;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateTermRequest extends FormRequest
 {
@@ -11,7 +13,7 @@ class UpdateTermRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +24,17 @@ class UpdateTermRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required|max:255',
+            // 'vocabulary_id' => 'required|exists:vocabularies,id',
+            'definition' => 'required',
+            'provenance' => 'nullable',
+            'provenance_uri' => 'nullable|url:https,http',
+            'discussion_url' => 'nullable|url:https,http',
+            'notes' => 'nullable',
+            'status' => [
+                'required',
+                Rule::in(array_column(TermStatus::cases(), 'value')),
+            ],
         ];
     }
 }

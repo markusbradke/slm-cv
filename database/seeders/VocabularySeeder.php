@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Vocabulary;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 
@@ -29,6 +28,7 @@ class VocabularySeeder extends Seeder
             'Monument Foundations',
             'Multipath Sources',
             'Radio Interferences',
+            'Radomes',
             'Receivers',
             'Sensor Models',
             'Signal Obstructions',

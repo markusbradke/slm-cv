@@ -1,0 +1,4242 @@
+[
+    {
+        "term": "3S-02-1AERO+CR",
+        "definition": "L1 assembly with Aero antenna and chokerings",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-1AERO-CR",
+        "definition": "L1 assembly with Aero antenna without chokerings",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-2AERO+CR",
+        "definition": "L1/L2 assembly with Aero antenna and chokerings",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-2AERO+GP",
+        "definition": "L1/L2 assembly with Aero antenna and groundplane",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-DM+CR",
+        "definition": "L1/L2 assembly, Dorne Margolin element and chokerings",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-DM-CR",
+        "definition": "L1/L2 assembly, Dorne Margolin element without chokerings",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-MACOM+GP",
+        "definition": "L1 assembly, M/Acom helix antenna and groundplane",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-MAN",
+        "definition": "L1 assembly with MAN Tech antenna",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-TE+GP",
+        "definition": "L1/L2 assembly with Tecomm antenna and groundplane",
+        "manufacturer": "3SNavigation",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-TSADM",
+        "definition": "TSA-100 assembly with Dorne Margolin antenna",
+        "manufacturer": "3SNavigation",
+        "arp": "TOP",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "3S-02-TSATE",
+        "definition": "TSA-100 assembly with Tecomm antenna",
+        "manufacturer": "3SNavigation",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "4000SE INTERNAL",
+        "definition": "TRM17200.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000SL MICRO",
+        "definition": "TRM12333.00+RGP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000SLD L1/L2",
+        "definition": "TRM12562.00+SGP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000ST INTERNAL",
+        "definition": "TRM4000ST_INT",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000ST KINEMATIC",
+        "definition": "TRM14156.00-GP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000ST L1 GEODETIC",
+        "definition": "TRM14177.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000ST L1/L2 GEOD",
+        "definition": "TRM14532.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "4000SX MICRO",
+        "definition": "TRM11877.10+SGP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "700228 NOTCH",
+        "definition": "ASH700228A           | ASH700228B ASH700228C           | ASH700228D ASH700228E",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "700228 RINGS",
+        "definition": "ASH700228A           | ASH700228B ASH700228C           | ASH700228D ASH700228E",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "A-C L1",
+        "definition": "ASHAC_L1",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "A-C L1/L2",
+        "definition": "ASHAC_L1/L2",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ACC72CGNSSA",
+        "definition": "P/N 72CGNSSA-XN-1 7in Conical CR RFC->N",
+        "manufacturer": "Antcom",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "AERAT1675_120",
+        "definition": "Aeroantenna GPS chokering antenna GPS: L1/L2/L5  GLO: G1/G2",
+        "manufacturer": "Aeroantenna",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "AERAT1675_29",
+        "definition": "Aeroantenna L1/L2 GPS + GLONASS Survey Antenna Ceramic patch element,internal groundplane,chokering",
+        "manufacturer": "Aeroantenna",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "AERAT1675_542E",
+        "definition": "Aeroantenna GNSS chokering antenna GPS: L1/L2  GLO: L1/L2  GAL: E1/E5a",
+        "manufacturer": "",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "AERAT2775_43",
+        "definition": "Aeroantenna L1/L2 GPS Survey Antenna Ceramic patch element,internal groundplane,chokering",
+        "manufacturer": "Aeroantenna",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ANTCOM",
+        "definition": "Multi-band GNSS antenna in the L1, L1/L2, L1/L2/L5 band",
+        "manufacturer": "Antcom",
+        "arp": "BPA",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "AOAD/M_B",
+        "definition": "Dorne Margolin with chokerings (Rogue, AOA design)",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BCR",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "AOAD/M_T",
+        "definition": "Dorne Margolin with chokerings (TurboRogue)/part #s 7490400-1 7490400-4 7490582-1 7490582-2 7490582-B",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "AOAD/M_T_RFI_T",
+        "definition": "Dorne Margolin with chokerings (TurboRogue design) retrofit with Tallysman LNA",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "AOAD/M_T_RFI_GL",
+        "definition": "Dorne Margolin with chokerings (TurboRogue design) retrofit with GPIO Labs LNA",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "AOAD/M_TA_NGS",
+        "definition": "Dorne Margolin with chokerings (TurboRogue design) retrofit with Ashtech LNA (12 exist at NOAA/NGS)",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "APSAPS-3",
+        "definition": "Integrated GPS L1/L2+L2C, GLO L1/L2 antenna",
+        "manufacturer": "Altus",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "APSAPS-3L",
+        "definition": "Integrated GPS L1/L2+L2C, GLO L1/L2, L-Band antenna",
+        "manufacturer": "Altus",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "APSAPS-NR2",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, SBAS antenna",
+        "manufacturer": "Altus",
+        "arp": "BAM",
+        "nrp": "DAC",
+        "status": "accepted"
+    },
+    {
+        "term": "ARFAS13DFS",
+        "definition": "ARF AS1-3D-FS  GPS L1/L2E/L2C/L5, GLO L2/L2/L3, GAL E1/E5A/E5B/E5AltBOC/E6 , BDS B1/B2/B3, QZSS L1/ L2C/L5/LEX, IRNSS L5, SBAS: L1/L5, MSS L-band: OmniSTAR/Trimble RTX 3D chokering antenna",
+        "manufacturer": "Atlanta",
+        "arp": "BCR",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ARFAS1FS",
+        "definition": "ARF AS1-FS GPS L1/L2/L5, GLO L2/L2, GAL E1/E5ab, BDS B1/B2/B3, QZSS L1, SBAS chokering antenna with 40 dB LNA",
+        "manufacturer": "Atlanta",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH111661",
+        "definition": "L1/L2/L5 GNSS survey antenna, base of RF connector",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228A",
+        "definition": "Geodetic L1/L2 Model 700228A 11.2 inch groundplane, handles 8 holes labeled A-H for HI measurement leveling bubble, compass, external LNA, 8 attachments for extended groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228A+EX",
+        "definition": "Model 700228A with extended groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228B",
+        "definition": "Geodetic L1/L2 Model 700228B new external LNA for extra RF filtering",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228B+EX",
+        "definition": "Model 700228B with extended groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228C",
+        "definition": "Geodetic L1/L2 Model 700228C eliminated leveling bubble",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228C+EX",
+        "definition": "Model 700228C with extended groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228D",
+        "definition": "Geodetic L1/L2 \"REV. B\" 700228D 8 \"L\" shaped slots for HI measurement labeled A-H",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700228E",
+        "definition": "Geodetic L1/L2 \"REV. B\" 700228E (same as D)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700699.L1",
+        "definition": "700699B_Mar.III_L1",
+        "manufacturer": "Ashtech",
+        "arp": "TOP",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700700.A",
+        "definition": "Dual freq. marine antenna Model 700700.A",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700700.B",
+        "definition": "Dual freq. marine antenna Model 700700.B",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700700.C",
+        "definition": "Dual freq. marine antenna Model 700700.C",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700718A",
+        "definition": "Geodetic III \"Whopper\" Model 700718A 14.5 inch groundplane, new antenna element, compass, no handles",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700718A1",
+        "definition": "Geodetic III \"Whopper\" Model 700718A1 (same as A), cosmetic changes to antenna dome mounting",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700718B",
+        "definition": "Geodetic III \"Whopper\" Model 700718B (same as A)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700829.2",
+        "definition": "Geodetic III \"Whopper\" Model 700829.2 (USCG) same as 700718 but with \"snow cone\" antenna dome and weather proof paint",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700829.3",
+        "definition": "Geodetic III \"Whopper\" Model 700829.3 (USCG) cosmetic changes to antenna dome mounting (same as models 700829.A and 700829.A1, see below)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700829.A",
+        "definition": "Geodetic III \"Whopper\" Model 700829.A (USCG)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700829.A1",
+        "definition": "Geodetic III \"Whopper\" Model 700829.A1 (USCG)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936A_M",
+        "definition": "Dorne Margolin with chokerings, Model 700936A C146 Dorne Margolin element, milled chokerings",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936B_M",
+        "definition": "Dorne Margolin with chokerings, Model 700936B changed internal RF cabling",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936C_M",
+        "definition": "Dorne Margolin with chokerings, Model 700936C improved antenna element centering",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936D_M",
+        "definition": "Dorne Margolin with chokerings, Model 700936D same as 700936C, logo added to antenna dome",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936E",
+        "definition": "Dorne Margolin with chokerings, Model 700936 REV E",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936E_C",
+        "definition": "Dorne Margolin with chokerings, Model 700936.02 REV E cast chokerings, original SCIGN design - recalled",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH700936F_C",
+        "definition": "Dorne Margolin with chokerings, Model 700936.02 REV F same as ASH700936E_C - recalled",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701008.01B",
+        "definition": "Geodetic IIIA, Model 701008-01(B)",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701023.A",
+        "definition": "L1 GPS and GLONASS Antenna GG ANT.L1 serial number starts with GB P/N 701023 (A)",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701023.L1",
+        "definition": "L1 GPS and GLONASS Antenna GGANT. L1 serial number starts with GA P/N 701023. (L1)",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701073.1",
+        "definition": "GPS/GLONASS (GG) dual-frequency with chokerings Model 701073 REV 1, supplied with Z18 receiver",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701073.3",
+        "definition": "Model 701073 REV 3",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701933A_M",
+        "definition": "Dorne Margolin with chokerings, Model 701933 REV A milled chokerings, watertight design, shallow threads",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701933B_M",
+        "definition": "Dorne Margolin with chokerings, Model 701933 REV B milled chokerings, watertight design, shallow threads",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701933C_M",
+        "definition": "Dorne Margolin with chokerings, Model 701933 REV C milled chokerings, watertight design, shallow threads, no humidity indicator",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701941.1",
+        "definition": "Dual Frequency GPS/GLONASS Model 701941-NN REV 1",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701941.2",
+        "definition": "Dual Frequency GPS/GLONASS Model 701941-NN REV 2",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701941.A",
+        "definition": "Dual Frequency GPS/GLONASS Model 701941-NN REV A",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701941.B",
+        "definition": "Dual Frequency GPS/GLONASS Model 701941-NN REV B",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701945.02B",
+        "definition": "ASH701945B_M",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ASH701945B_M",
+        "definition": "Dorne Margolin with chokerings, Model 701945-NN REV B milled chokerings, watertight design (replaces recalled SCIGN ASH700936E_C antenna)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701945C_M",
+        "definition": "Dorne Margolin with chokerings, Model 701945-NN REV C milled chokerings, watertight design",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701945D_M",
+        "definition": "Dorne Margolin with chokerings, Model 701945-NN REV D (only a few manufactured)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701945E_M",
+        "definition": "Dorne Margolin with chokerings, Model 701945-NN REV E milled chokerings, watertight design (includes E1)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701945G_M",
+        "definition": "Dorne Margolin with chokerings, Model 701945-NN REV G (no physical changes from REV E)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701946.012",
+        "definition": "ASH701946.2",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ASH701946.022",
+        "definition": "ASH701946.2",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ASH701946.2",
+        "definition": "Dorne Margolin with chokerings,Model 701946-NN REV 2 (GPS + GLONASS)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701946.3",
+        "definition": "Dorne Margolin with chokerings,Model 701946-NN REV 3 (GPS + GLONASS)",
+        "manufacturer": "Ashtech",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701975.01A",
+        "definition": "Geodetic IV, Rev A",
+        "manufacturer": "Ashtech",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701975.01AGP",
+        "definition": "Geodetic IV, Rev A with groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "ASH701975.01Agp",
+        "definition": "ASH701975.01AGP",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ASH802147_A",
+        "definition": "ProMark 800, 120 channels GPS L1/L2/L5, GLONASS, Galileo, SBAS integrated receiver/antenna",
+        "manufacturer": "Ashtech",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "ASHAC_L1",
+        "definition": "Single freq. without groundplane for aircraft use",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASHAC_L1/L2",
+        "definition": "Dual freq. without groundplane for aircraft use",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASHMAR/RANGE",
+        "definition": "Marine antenna, L1 only with a small groundplane",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "ASHTECH MICROZ",
+        "definition": "ASHTECH UZ-12",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ASS100426A2",
+        "definition": "Galileo experimental antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "CHAPRO",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3CDMA, GAL E1/E5A/E5B/E5AltBOC, BDS B1/B2, SBAS L1/L5 Champion PRO antenna",
+        "manufacturer": "Champion",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "CHAPS9017",
+        "definition": "Champion Instruments PS9017 GPS L1/L2/L5, GLO L2/L2, GAL E1/E2/E5ab/E6, BDS B1/B2/B3, SBAS chokering antenna",
+        "manufacturer": "Champion",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "CHAWR1",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2, GAL L1 BOC/E5A/E5B/E5AltBoc, BDS B1/B2, SBAS L1/L5 Champion WR1 antenna",
+        "manufacturer": "Champion",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCA110G",
+        "definition": "Multi-purpose compact geodetic antenna with integrated radome. GPS: L1 only, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCA220GR",
+        "definition": "Multi-purpose compact geodetic antenna with integrated radome. GPS: L1/L2/L5, GLO: L1/L2/L3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, BDS: B1/B2/B3, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCA300GNSS",
+        "definition": "Multi-purpose compact geodetic antenna with integrated radome. GPS: L1/L2, GLO: L1/L2",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCC220GR",
+        "definition": "Multi-purpose machined copper alloy chokering antenna with Dorne Margolin element & LNA (Rev. 1, serial number starting with 12 or 13; w/o north mark). GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-band",
+        "manufacturer": "CHC",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCC220GR2",
+        "definition": "Multi-purpose machined copper alloy chokering antenna with Dorne Margolin element & LNA (Rev. 2, serial number starting with 2015 or four-digit code of subsequent year; w/ north mark). GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-band",
+        "manufacturer": "CHC",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCI80",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, GAL: E1/E5a/E5b, BDS: B1/B2",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX20+",
+        "definition": "Internal geodetic antenna. GPS: L1 only, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX90+",
+        "definition": "Internal geodetic antenna with large ground plane & integrated radome. GPS: L1/L2, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX900+",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX900+S",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX900B",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX900R",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX90D-OPUS",
+        "definition": "Internal geodetic antenna with large ground plane & integrated radome. GPS: L1/L2, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX91+",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX91+S",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX91B",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CHCX91R",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "CHC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTAT330",
+        "definition": "ComNav AT330 GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, SBAS geodetic antenna",
+        "manufacturer": "ComNav",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTAT340",
+        "definition": "ComNav AT340 GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b/AltBOC, LBand SBAS geodetic antenna",
+        "manufacturer": "ComNav",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTAT350",
+        "definition": "ComNav AT350 GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, SBAS chokering antenna",
+        "manufacturer": "ComNav",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTAT500",
+        "definition": "ComNav AT500 GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E2/E5ab/E6, SBAS chokering antenna",
+        "manufacturer": "ComNav",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTAT600",
+        "definition": "ComNav AT600 GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5ab/E6, IRNSS, QZSS SBAS choke ring antenna",
+        "manufacturer": "ComNav",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTT30",
+        "definition": "ComNav T30 internal GNSS antenna. GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b/AltBOC, QZSS, IRNSS, L-Band, SBAS",
+        "manufacturer": "ComNav",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTT300",
+        "definition": "ComNav T300 internal GNSS antenna. GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, SBAS",
+        "manufacturer": "ComNav",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "CNTT300+",
+        "definition": "",
+        "manufacturer": "ComNav",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "CNTT300PLUS",
+        "definition": "ComNav T300 Plus internal GNSS antenna. GPS L1/L2/L5, GLO L1/L2, BDS B1/B2/B3, GAL E1/E5a/E5b, SBAS",
+        "manufacturer": "ComNav",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "DORNE MARGOLIN ASH",
+        "definition": "ASH700936A_M         | ASH700936B_M ASH700936C_M         | ASH700936D_M",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DORNE MARGOLIN B",
+        "definition": "AOAD/M_B",
+        "manufacturer": "Rogue/AOA",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DORNE MARGOLIN LEICA",
+        "definition": "LEIAT504",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DORNE MARGOLIN R",
+        "definition": "JPLD/M_R",
+        "manufacturer": "Rogue/AOA",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DORNE MARGOLIN T",
+        "definition": "AOAD/M_T",
+        "manufacturer": "Rogue/AOA",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DORNE MARGOLIN TRIM",
+        "definition": "TRM29659.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "DSNNAP_002",
+        "definition": "",
+        "manufacturer": "SERCEL NAVIGATION",
+        "arp": "BPA",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "EML_REACH_RS2",
+        "definition": "Integrated GPS/QZSS L1C/A, L2C, GLO L1, L2; BDS B1I, B2I; GAL E1-B/C, E5b GNSS antenna",
+        "manufacturer": "EMLID",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "EXTERNAL WITH GP",
+        "definition": "LEIAT202+GP          | LEIAT302+GP",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "EXTERNAL WITHOUT GP",
+        "definition": "LEIAT202-GP          | LEIAT302-GP",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "FOIA30",
+        "definition": "Suzhou FOIF internal antenna, GPS, GLONASS, Galileo, BeiDou, SBAS",
+        "manufacturer": "FOIF",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "FOIA90",
+        "definition": "Integrated GPS L1/L2+L2C/L5, BeiDou, GLONASS, Galileo, IRNSS, QZSS, SBAS, MSS L-Band FOIF A90 GNSS antenna",
+        "manufacturer": "FOIF",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GAL-EXP-ANT-1",
+        "definition": "Galileo experimental antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "GAL-EXP-ANT-2",
+        "definition": "Galileo experimental antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "GAL-EXP-ANT-4",
+        "definition": "Galileo experimental antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "GAL-GRC-NPRS",
+        "definition": "Galileo experimental antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "GAL-GRC-PTF",
+        "definition": "Galileo antenna",
+        "manufacturer": "Galileo",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "GEODETIC III L1/L2",
+        "definition": "ASH700718A           | ASH700718A1 ASH700718B           | ASH700829.2 ASH700829.3",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "GEODETIC L1/L2 L",
+        "definition": "ASH700228A           | ASH700228B ASH700228C",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "GEODETIC L1/L2 P",
+        "definition": "ASH700228D           | ASH700228E",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "GINCYF90",
+        "definition": "Integrated GPS: L1CA/L1P/L1C/L2P/L2C/L5, GLO: L1/L2+L2C; BDS: B1/B2/B3; GAL: E1BC/E5a/E5b; QZSS: L1CA/L2C/L5/L1C; SBAS: L1 CA/L5 CYF90 antenna",
+        "manufacturer": "GINTEC",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH10",
+        "definition": "Internal geodetic antenna, GPS L1/L2, GLONASS",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH15",
+        "definition": "Internal geodetic antenna, GPS L1/L2/L2C, GLONASS, SBAS, Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH16",
+        "definition": "Internal geodetic dual-frequency antenna, GPS/GLO/ GAL/BDS/QZSS/SBAS",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH20",
+        "definition": "Internal geodetic antenna, GPS L1/L2/L5, GLONASS, Galileo, BeiDou",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH25",
+        "definition": "Internal geodetic antenna, GPS L1/L2/L2C, GLONASS, Galileo, BeiDou, Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH25PRO",
+        "definition": "Internal geodetic antenna, GPS L1/L2/L2C, GLONASS, Galileo, BeiDou, SBAS, Q-Lock technology",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH35",
+        "definition": "Internal geodetic antenna, GPS L1/L2/L2C/L5, GLONASS, Galileo, BeiDou, SBAS, AdVance technology",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GMXZENITH40",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/QZSS/SBAS/L-BAND",
+        "manufacturer": "GeoMax",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "GPPNULLANTENNA",
+        "definition": "Geo++ ideal isotropic, absolute antenna: see http://www.geopp.com/gnpcvdb/AOA_DM_T/",
+        "manufacturer": "Other",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "HEMS631",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3, QZSS L1/L2/L5, SBAS L1/L5, L-Band Atlas",
+        "manufacturer": "Hemisphere",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "HGGCYH8372",
+        "definition": "Multi purpose GNSS choke ring antenna GPS: L1,L2,L5,  GLO: L1,L2,L3;  BDS: B1,B2,B3; GAL: E2-L1-E1,E5a,E5b,E6,AltBOC;  L-BAND",
+        "manufacturer": "Highgain",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "HITAT45101CP",
+        "definition": "GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E2/E5a E5b/E6, BDS B1/B2/B3, L-BAND chokering antenna",
+        "manufacturer": "HI-Target",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "HXCGPS1000",
+        "definition": "",
+        "manufacturer": "Harxon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "HXCGPS500",
+        "definition": "",
+        "manufacturer": "Harxon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "HXCCGX601A",
+        "definition": "Geodetic reference station antenna with 3D choke ring GPS: L1/L2/L5, GLO: L1/L2/L3, GAL: E1/E2/E5a/E5b/E6 BDS: B1/B2/B3, L-BAND",
+        "manufacturer": "Harxon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "HZCHZR37BGL",
+        "definition": "External geodetic antenna GPS: L1/L2, GLO: L1/L2 BDS: B1/B2/B3",
+        "manufacturer": "HZC Technology",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "HZCHZR48BGL",
+        "definition": "External geodetic antenna GPS: L1/L2/L5, GLO: L1/L2, GAL: E1/E2/E5a/E5b, BDS: B1/B2/B3, L-BAND",
+        "manufacturer": "HZC Technology",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "HZCHZR48C",
+        "definition": "Geodetic reference station antenna with 3D choke ring GPS: L1/L2/L5, GLO: L1/L2, GAL: E1/E2/E5ab/E6, BDS: B1/B2/B3, L-BAND",
+        "manufacturer": "HZC Technology",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "IGAIG8",
+        "definition": "Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, GAL: E1/E5ab, BDS: B1/B2",
+        "manufacturer": "IGAGE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "INTERNAL",
+        "definition": "LEISR299_INT         | LEISR399_INT LEISR399_INTA",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "ITT3750323",
+        "definition": "Chokering antenna with low noise amplifier",
+        "manufacturer": "ITT",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAV_GRANT-G3T",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2, GAL E1/E5A",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAV_GRANT-G3T+G",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B, BDS B1/B2, QZSS L1/L2/L5 with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAV_RINGANT_G3T",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2, GAL E1/E5A chokering antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAV_TRIUMPH-1",
+        "definition": "Integrated GPS L1/L2/L2C/L5, GLONASS L1/L2, Galileo E1/E5A Triumph1 antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAV_TRIUMPH-1R",
+        "definition": "Integrated GPS L1/L2/L5, GAL E1/E5A/E5B, GLO L1/L2/L3, BDS B1/B2, QZSS L1/L2/L5 Triumph1 antenna with radio modem antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_3L",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, IRNSS L5, SBAS L1/L5, L-band",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_3L+GP",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, IRNSS L5, SBAS L1/L5, L-band with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_3LS",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, NavIC L1/L5/S, SBAS L1/L5, L-band",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_3LS+GP",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, NavIC L1/L5/S, SBAS L1/L5, L-band with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G3",
+        "definition": "External GPS L1, GLO L1, GAL E1, BDS B1, QZSS L1",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G3+GP",
+        "definition": "External GPS L1, GLO L1, GAL E1, BDS B1, QZSS L1 with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G3TJ",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B, QZSS L1/L2/L5 with J-Shield (unique RF filter technology)",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G3TJ+G",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B, QZSS L1/L2/L5 with J-Shield (unique RF filter technology) and ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G5T",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G5T+GP",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVGRANT_G5TLBI",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, IRNSS L5, S, SBAS L1/L5, L-band",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVRINGANT_3L",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, NavIC L1/L5, SBAS L1/L5, L-Band chokering antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVRINGANT_DM",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2, GAL E1/E5/E6 chokering antenna with Dorne Margolin element",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVRINGANT_DMT",
+        "definition": "VeraChoke 6050 with 50 dB LNA, GPS/QZSS L1/L2/L5 GLONASS G1/G2/G3, Galileo E1/E5a/E5b/E6, BDS B1/ B2/B2a/B3, QZSS L6, NavIC L5,  L-band corrections",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVRINGANT_G5T",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX chokering antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIANT",
+        "definition": "JAVTRIANT_A          | JAVTRIANT_B",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "JAVTRIANT_A",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2, GAL E1/E5 (term A)",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIANT_B",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2, GAL E1/E5 (term B: bottom part of antenna housing removed)",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_1M",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5, BDS B1/B2, QZSS L1/L2/L5 Triumph-1M antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_1MPR",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, IRNSS L5, L-band Triumph-1MPR antenna with radio modem antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_1MR",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5, BDS B1/B2, QZSS L1/L2/L5 Triumph-1M antenna with radio modem antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_2",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2, SBAS L1 Triumph-2 antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_2+G",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2, SBAS L1 Triumph-2 antenna with ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_2A",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2, SBAS L1 Triumph-2 antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_2A+G",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2, SBAS L1 Triumph-2 antenna with adapter and ground plane",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_2A+P",
+        "definition": "Integrated GPS L1/L2, GLO L1/L2, GAL E1, BDS B1, QZSS L1/L2, SBAS L1 Triumph-2 antenna with adapter and Plastic Base Plate",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_3A",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6 Triumph-3 antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_3A1",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, NavIC L1/L5, SBAS L1/L5, L-band Triumph-3 antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_3NRA",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B, BDS B1/B2, QZSS L1/L2/L5, IRNSS L5, L-band Triumph-3NR antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_LS",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5, BDS B1/B2, QZSS L1/L2/L5 Triumph-LS antenna",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_LSA",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5, BDS B1/B2, QZSS L1/L2/L5 Triumph-LS antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_LSPA",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5A/E5B/E6, BDS B1/B1C/B2/B2A/B2B/B3, QZSS L1/L2/L5/L6, NavIC L1/L5, SBAS L1/L5, L-band Triumph-LS Plus antenna with adapter",
+        "manufacturer": "Javad",
+        "arp": "BAM",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "JAVTRIUMPH_VS",
+        "definition": "Integrated GPS L1/L2/L5, GLONASS L1/L2, Galileo E1/E5 Triumph V.S. antenna",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "JNSCHOKERING_DM",
+        "definition": "External GPS L1/L2, GLO L1/L2 chokering antenna with C146-22-1 element",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JNSCR_C146-22-1",
+        "definition": "External GPS L1/L2, GLO L1/L2 chokering antenna with C146-22-1 element",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JNSMARANT_GGD",
+        "definition": "low-profile, waterproof GPS/GLONASS external antenna",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSLEGANT_E",
+        "definition": "Antenna on flat groundplane",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSMARANT_GGD",
+        "definition": "JNSMARANT_GGD",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "JPSODYSSEY_I",
+        "definition": "Antenna on flat groundplane, integrated with Odyssey receiver",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "JPLD/M_R",
+        "definition": "Dorne Margolin element with chokerings (Rogue, JPL design)",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BCR",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPLD/M_RA_SOP",
+        "definition": "Dorne Margolin with chokerings (Rogue, JPL design) retrofit with Ashtech LNA (two exist at SOPAC)",
+        "manufacturer": "Rogue/AOA",
+        "arp": "BCR",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_DD_E",
+        "definition": "Dual-depth chokering antenna, external",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_DD_E1",
+        "definition": "Dual  -depth chokering antenna, external different PCV due to systematics within model series no unique criteria, but guess is serial number RA",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_DD_E2",
+        "definition": "Dual  -depth chokering antenna, external different PCV due to systematics within model series no unique criteria, but guess is serial number RRA",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_DD_I",
+        "definition": "Dual-depth chokering antenna, integrated with Regency receiver",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_SD_E",
+        "definition": "Single-depth chokering antenna, external",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_SD_E1",
+        "definition": "Single-depth chokering antenna, external different PCV due to systematics within model series no unique criteria, but guess is serial number below RA0131",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_SD_E2",
+        "definition": "Single-depth chokering antenna, external different PCV due to systematics within model series no unique criteria, but guess is serial number above RA0132",
+        "manufacturer": "Javad",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "JPSREGANT_SD_I",
+        "definition": "Single-depth chokering antenna, integrated with Regency receiver",
+        "manufacturer": "Javad",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "KLD680NCH6013A",
+        "definition": "KOLIDA 680N GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK10T970A",
+        "definition": "KOLIDA K10 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK3705A",
+        "definition": "KOLIDA K3 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK58PT970A",
+        "definition": "KOLIDA K58Plus GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b, QZSS: Ll/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK5ICSX049A",
+        "definition": "KOLIDA K5 Infinity GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, QZSS L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK5P+CSX049A",
+        "definition": "KOLIDA K5Plus+ GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK5UFOT970A",
+        "definition": "KOLIDA K5 UFO GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b, QZSS L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "KLDK86+BS602A",
+        "definition": "KOLIDA K86+ GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b, L-Band",
+        "manufacturer": "KOLIDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAR10",
+        "definition": "Multi-purpose geodetic reference station antenna with large groundplane and integrated radome. GPS: L1,L2,L5 GLONASS: L1,L2,L3 Galileo: E2-L1-E1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 QZSS: L1,L2,L5,L6 NavIC L5 L-BAND",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAR20",
+        "definition": "Multi purpose GNSS choke ring antenna GPS: L1,L2,L5 GLNASS: L1,L2,L3 Galileo: E2-L1-E1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 QZSS: L1,L2,L5,L6 NavIC L5 L-BAND",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAR25",
+        "definition": "Dorne Margolin with 3D choke ring (Revision 2) GPS: L1,L2,L5 GLONASS: L1,L2,L3 Galileo: E2-L1-E1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 QZSS: L1,L2,L5,L6 NavIC L5 L-BAND [Note: Revision 1 was never released to public.]",
+        "manufacturer": "Leica",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAR25.R3",
+        "definition": "Dorne Margolin with 3D choke ring (Revision 3) GPS: L1,L2,L5 GLONASS: L1,L2,L3 Galileo: E2-L1-E1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 QZSS: L1,L2,L5,L6 NavIC L5 L-BAND Includes insert for enhanced L5 performance.",
+        "manufacturer": "Leica",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAR25.R4",
+        "definition": "Dorne Margolin with 3D choke ring (Revision 4) GPS: L1,L2,L5 GLONASS: L1,L2,L3 Galileo: E2-L1-E1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 QZSS: L1,L2,L5,L6 NavIC L5 L-BAND Includes insert for enhanced L5 performance.",
+        "manufacturer": "Leica",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAS05",
+        "definition": "External geodetic single-frequency antenna, GPS/GLO",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAS10",
+        "definition": "External geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAS11",
+        "definition": "External geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/QZSS/L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT201",
+        "definition": "External micropulse antenna L1, w/o groundplane with series 200 receivers",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT202+GP",
+        "definition": "External micropulse antenna L1/L2, with groundplane with series 200 receivers",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT202-GP",
+        "definition": "External micropulse antenna L1/L2, no groundplane with series 200 receivers",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT302+GP",
+        "definition": "External micropulse antenna L1/L2, with groundplane with series 300 receivers",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT302-GP",
+        "definition": "External micropulse antenna L1/L2, no groundplane with series 300 receivers",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT303",
+        "definition": "Micropulse antenna L1/L2, with chokerings",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT501",
+        "definition": "External antenna with Aero element L1, with series 500 receivers",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT502",
+        "definition": "External antenna with Aero element L1/L2, with series 500 receivers",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT503",
+        "definition": "Micropulse antenna with chokerings, L1/L2 (identical to LEICA AT303)",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT504",
+        "definition": "L1/L2 Dorne Margolin antenna with chokerings (designed after DORNE MARGOLIN T)",
+        "manufacturer": "Leica",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAT504GG",
+        "definition": "L1/L2 Dorne Margolin antenna with chokerings (designed after DORNE MARGOLIN T), GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIATX1230",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack, GPS",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIATX1230+GNSS",
+        "definition": "Internal geodetic antenna, SmartTrack+, GPS L1/L2/L5, GLONASS, Galileo, BeiDou",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIATX1230GG",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAX1201",
+        "definition": "External antenna L1, SmartTrack with series 1200 receivers",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAX1202",
+        "definition": "External geodetic antenna L1/L2, SmartTrack with series 1200 receivers",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAX1202GG",
+        "definition": "External geodetic antenna L1/L2, SmartTrack with series 1200 receivers, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIAX1203+GNSS",
+        "definition": "External geodetic antenna, SmartTrack+ with series 1200 receivers, GPS L1/L2/L5, GLONASS, Galileo, BeiDou",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEICA AT201",
+        "definition": "LEIAT201",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT202/302",
+        "definition": "LEIAT202-GP          | LEIAT302-GP",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT202/302 GP",
+        "definition": "LEIAT202+GP          | LEIAT302+GP",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT303",
+        "definition": "LEIAT303",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT501",
+        "definition": "LEIAT501",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT502",
+        "definition": "LEIAT502",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA AT503",
+        "definition": "LEIAT503",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICA INTERNAL",
+        "definition": "LEISR299_INT         | LEISR399_INT LEISR399_INTA",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "LEICGA100",
+        "definition": "External geodetic multi-frequency antenna, GPS: L1,L2,L5 GLO: L1,L2,L3 GAL: E1,E5a,E5b,E6, Alt-Boc BDS: B1,B2,B3 L-Band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEICGA60",
+        "definition": "External geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIFLX100",
+        "definition": "Internal multi-frequency antenna, GPS: L1,L2 GLO: L1,L2 GAL: E1,E5b BDS: B1,B2  QZSS: L1,L2",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGG02PLUS",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack+, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGG03",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGG04",
+        "definition": "Internal geodetic multi-frequency antenna, GPS: L1,L2,L5, GLONASS: L1,L2; Galileo: E1,E5a,E5b, E6,AltBOC; BeiDou: B1,B2,B3; QZSS; SBAS; L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGG04PLUS",
+        "definition": "Internal geodetic multi-frequency antenna, GPS: L1,L2,L5, GLONASS: L1,L2; Galileo: E1,E5a,E5b, E6,AltBOC; BeiDou: B1,B2,B3; QZSS; SBAS; L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGMX901",
+        "definition": "Internal GPS L1 antenna",
+        "manufacturer": "Leica",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGMX910",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ BDS/QZSS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS07",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/QZSS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS08",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack+, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS08PLUS",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS09",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack+, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS12",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack+, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS14",
+        "definition": "Internal geodetic dual-frequency antenna, GPS/GLO/ GAL/BDS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS15",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/L-band, serial number below 1508600, produced until August 2011",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RTC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS15.R2",
+        "definition": "Internal geodetic multi-frequency antenna (Rev. 2), GPS/GLO/GAL/BDS/L-band, serial number 1508600 and above, produced as of August 2011",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RTC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS16",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/L-band",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIGS18",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/QZSS/L-BAND",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIICG30",
+        "definition": "Internal geodetic multi-frequency antenna, GPS: L1,L2,L5, GLONASS: L1,L2,L3; Galileo: E1,E5a, E5b,E6,AltBOC; BeiDou: B1,B2,B3",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIICG60",
+        "definition": "Internal geodetic antenna, SmartTrack+, GPS L1/L2/L5, GLONASS, Galileo, BeiDou",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIICG70",
+        "definition": "Internal geodetic multi-frequency antenna, GPS/GLO/ GAL/BDS/L-BAND",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIMNA1202GG",
+        "definition": "External geodetic antenna L1/L2, SmartTrack with PowerBox receiver, GPS & GLONASS",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEIMNA950GG",
+        "definition": "Internal geodetic antenna L1/L2, SmartTrack, GPS & GLONASS (PowerAntenna)",
+        "manufacturer": "Leica",
+        "arp": "BAM",
+        "nrp": "CAC",
+        "status": "accepted"
+    },
+    {
+        "term": "LEISR299_INT",
+        "definition": "Internal antenna with Ball element L1/L2, part of the SR299 receiver",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEISR399_INT",
+        "definition": "Revised antenna with modified mount design L1/L2, part of the SR399 receiver, made or serviced *after* Aug 97 (see http://www.ngs.noaa.gov/ANTCAL) Warning: definitions interchanged in June 2009.",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "LEISR399_INTA",
+        "definition": "Original internal antenna with Ball element L1/L2, part of the SR399 receiver, made *prior* to Aug 97 Warning: definitions interchanged in June 2009.",
+        "manufacturer": "Leica",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "M-PULSE L1/L2 SURVEY",
+        "definition": "MPLL1/L2_SURV",
+        "manufacturer": "Micropulse",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "MAC4647942",
+        "definition": "Crossed-dipole antenna with large groundplane, Model Number 4647942",
+        "manufacturer": "MINIMAC",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MACPATCH",
+        "definition": "Patch antenna",
+        "manufacturer": "MINIMAC",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MACROMETER X-DIPOLE",
+        "definition": "MAC4647942",
+        "manufacturer": "MINIMAC",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "MAGELLAN PM-500",
+        "definition": "MAGPM-500",
+        "manufacturer": "Magellan",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "MAGPM-500",
+        "definition": "L1/L2 GPS, L1/L2 GLONASS integrated rcvr/antenna",
+        "manufacturer": "Magellan",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MARINE/RANGE",
+        "definition": "ASHMAR/RANGE",
+        "manufacturer": "Ashtech",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "MINIMAC PATCH",
+        "definition": "MACPATCH",
+        "manufacturer": "MINIMAC",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "MP-1372FW+REGP",
+        "definition": "Micropulse MP-1372W with UNAVCO rolled edge GP, (part of UNAVCOs L1 volcano monitoring system)",
+        "manufacturer": "Micropulse",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MPL_WAAS_2224NW",
+        "definition": "MicroPulse WAAS Unit 2224NW",
+        "manufacturer": "Micropulse",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MPL_WAAS_2225NW",
+        "definition": "MicroPulse WAAS L1/L2/L5 2225NW",
+        "manufacturer": "Micropulse",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "MPLL1/L2_SURV",
+        "definition": "MicroPulse L1/L2 GPS Surveying Antenna 90LL12300",
+        "manufacturer": "Micropulse",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "MVECR152GNSSA",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5ab, BDS B1/B2, QZSS L1/L2/L5, SBAS, Choke Ring Antenna",
+        "manufacturer": "MVE",
+        "arp": "BCR",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "MVEGA152GNSSA",
+        "definition": "External GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5ab, BDS B1/B2, QZSS L1/L2/L5, SBAS antenna",
+        "manufacturer": "MVE",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NAV850",
+        "definition": "GPS L1/L2/L5, GLONASS L1/L2/L3, Galileo E1/E5a/E5b/E6, BeiDou B1/B2/B3 L-Band Survey Antenna",
+        "manufacturer": "NavCom",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NAV_ANT3001BR",
+        "definition": "GPS L1/L2/L2C/L5, GLONASS G1/G2, Galileo E1/E5a, choke ring antenna",
+        "manufacturer": "NavCom",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NAV_ANT3001R",
+        "definition": "GPS L1/L2/L2C/L5, GLONASS G1/G2, Galileo E1/E5a, rover antenna",
+        "manufacturer": "NavCom",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NAVAN2004T",
+        "definition": "GPS L1/L2/L-Band Antenna, Survey Mount",
+        "manufacturer": "NavCom",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NAVAN2008T",
+        "definition": "GPS L1/L2/L-Band Antenna, Aircraft Mount FAA Cert.",
+        "manufacturer": "NavCom",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NAVANT5001R",
+        "definition": "GPS L1/L2/L2C/L5, GLONASS G1/G2, Galileo E1/E5a, BeiDou B1/B2 rover antenna",
+        "manufacturer": "NavCom",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NAVSF2040G",
+        "definition": "GPS L1/L2/SBAS/StarFire Antenna",
+        "manufacturer": "NavCom",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NAX3G+C",
+        "definition": "3G+C one-layer GNSS antenna for all signals GPS: L1,L2,L2C,L5  GLONASS: G1,G2,G3 Galileo: L1,E1,E2,E4,E5a,E5b,E6  BeiDou: B1,B2,B3",
+        "manufacturer": "NavXperience",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV501",
+        "definition": "GPS-501 L1",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV501+CR",
+        "definition": "GPS-501 L1 with chokerings",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV502",
+        "definition": "GPS-502 L1/L2",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV502+CR",
+        "definition": "GPS-502 L1/L2 with chokerings",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV503",
+        "definition": "GPS-503 L1/L2",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV503+CR",
+        "definition": "GPS-503 L1/L2 with chokerings",
+        "manufacturer": "Novatel",
+        "arp": "BCR",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV531",
+        "definition": "GPS-531 L1",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV531+CR",
+        "definition": "GPS-531 L1 with chokerings",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV533+CR",
+        "definition": "ANT-533 L1/L2 with chokerings",
+        "manufacturer": "Novatel",
+        "arp": "BCR",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV600",
+        "definition": "L1/L2 GPS Antenna (Pinwheel Technology)",
+        "manufacturer": "Novatel",
+        "arp": "TOP",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV600LB",
+        "definition": "GPS-600LB GPS L1/L2, L-Band",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV701GG",
+        "definition": "GPS-701GG GPS L1, GLONASS L1 (Pinwheel Technology)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV701GGL",
+        "definition": "GPS-701GG GPS L1, GLONASS L1, L-Band (Pinwheel Tech.)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV702",
+        "definition": "GPS-702 RoHS-compliant GPS L1/L2  (Pinwheel Tech.)",
+        "manufacturer": "Novatel",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV702GG",
+        "definition": "GPS-702GG GPS L1/L2, GLONASS L1/L2 (Pinwheel Tech.)",
+        "manufacturer": "Novatel",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV702GGL",
+        "definition": "GPS-702GG GPS L1/L2, GLONASS L1/L2, L-Band (Pinwheel technology)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV702L",
+        "definition": "GPS-702L RoHS-compliant GPS L1/L2, L-Band (Pinwheel Technology)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV703GGG.R2",
+        "definition": "GPS-703-GGG (Rev. 2) RoHS-compliant (Pinwheel Tech.) GPS: L1/L2/L5 GLONASS: L1/L2/L3 Galileo: E1/E5a/E5b BeiDou: B1/B2, L-Band",
+        "manufacturer": "Novatel",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV704X",
+        "definition": "GPS-704X Passive GPS L1/L2/L5, GLONASS L1/L2, Galileo L1/E5a/E5b/E6, L-Band. (Pinwheel Tech.)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV750",
+        "definition": "Dorne Margolin with 3D choke ring ground plane GPS: L1,L2,L2C,L5 GLONASS: L1,L2,L3 Galileo: L1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 L-BAND",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV750.R4",
+        "definition": "Dorne Margolin with 3D choke ring ground plane rev. 4 GPS: L1,L2,L2C,L5 GLONASS: L1,L2,L3 Galileo: L1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 L-BAND",
+        "manufacturer": "Novatel",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV750.R5",
+        "definition": "Dorne Margolin with 3D choke ring ground plane rev. 5 GPS: L1,L2,L2C,L5 GLONASS: L1,L2,L3 Galileo: L1, E5a,E5b,E6,AltBOC BeiDou: B1,B2,B3 L-BAND",
+        "manufacturer": "Novatel",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV850",
+        "definition": "GPS L1/L2/L5, GLONASS L1/L2/L3, Galileo E1/E5a/E5b/E6, BeiDou B1/B2/B3 L-Band Survey Antenna",
+        "manufacturer": "Novatel",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "NOV_WAAS_600",
+        "definition": "NOV600 element in MPL assembly (used by WAAS/NGS)",
+        "manufacturer": "Novatel",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "NOVSMART-V1",
+        "definition": "Novatel Smart antenna with integrated receiver",
+        "manufacturer": "Novatel",
+        "arp": "BPA",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "PDAPD9",
+        "definition": "Integrated PANDA PD9 antenna. BDS-2 B1I/B2I/B3I, BDS-3 B1I/B3I/B1c/B2a, GPS L1 C/A,L1C/L2P/L5, GLONASS L1/L2, Galileo E1/E5a/E5b, QZSS L1 C/A, L1C/L2C/L5, SBAS L1 C/A multi-frequency integrated receiver/antenna",
+        "manufacturer": "PANDA",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "PRXG4",
+        "definition": "Internal geodetic antenna, GPS L1/L2, GLONASS",
+        "manufacturer": "Prexiso",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "PRXG5",
+        "definition": "Internal geodetic antenna, GPS L1/L2, GLONASS, Galileo",
+        "manufacturer": "Prexiso",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RAYIRO-G3B",
+        "definition": "Integrated GPS L1/L2/L2C/L5, GLO L1/L2, BDS B1/B2, SBAS RAYMAND IRO-G3B antenna",
+        "manufacturer": "RAYMAND",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RDR680NCH6013A",
+        "definition": "RUIDE 680N GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "RUIDE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RDR6ICSX027A",
+        "definition": "RUIDE R6I GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "RUIDE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RDR6PCSX049A",
+        "definition": "",
+        "manufacturer": "RUIDE",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "RDR8I037P00B",
+        "definition": "RUIDE R8I GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "RUIDE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RDR90IT970A",
+        "definition": "",
+        "manufacturer": "RUIDE",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "RNG80971.00",
+        "definition": "Boreas GNSS antenna L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "RUSNAVGEOSET",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "RNGA3R",
+        "definition": "switchable MSS filter in LNA, p/n 135000-10 GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E2/E5a/E5b/E6, BDS B1/B2/B3",
+        "manufacturer": "RUSNAVGEOSET",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "RNGSMAXGEO-A",
+        "definition": "S-MAX GEO, 240 channels GPS L1/L2, GLONASS, BeiDou, Galileo, QZSS, SBAS, L-band integrated receiver/ant.",
+        "manufacturer": "RUSNAVGEOSET",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "RSIPULSARR6P",
+        "definition": "RUIDE PULSAR R6p GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "RUIDE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "RSIR90INEO",
+        "definition": "RUIDE R90ineo GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "RUIDE",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SBP_PIKSI_MULTI",
+        "definition": "Multiple signal bands enable faster convergence times, and multiple satellite constellations enhance availability. Piksi Multi supports GPS L1/L2, GLONASS G1/G2, BeiDou B1/B2, Galileo E1/E5b, SBAS and is hardware-ready for QZSS L1/L2.",
+        "manufacturer": "SwiftNav",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "SDT3T970A",
+        "definition": "",
+        "manufacturer": "SANDING",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "SDT5037P00B",
+        "definition": "SANDING T5 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "SANDING",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SDT66PCSX049A",
+        "definition": "",
+        "manufacturer": "SANDING",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "SDT66VCSX027A",
+        "definition": "SANDING T66V GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "SANDING",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SDTCBCH6013A",
+        "definition": "SANDING Tcube S680N GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "SANDING",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SEN67157586",
+        "definition": "Sensor Systems L1/L2, PN:S67-1575-86",
+        "manufacturer": "Sensor Systems",
+        "arp": "BAM",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "SEN67157596+CR",
+        "definition": "Sensor Systems L1/L2, PN:S67-1575-96 + chokerings",
+        "manufacturer": "Sensor Systems",
+        "arp": "TCR",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPALTUS_NR3",
+        "definition": "Integrated GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/AltBoc, BDS B1/B2, IRNSS L5, QZSS L1/L2/L5, SBAS L1/L5 antenna",
+        "manufacturer": "Septentrio",
+        "arp": "BAM",
+        "nrp": "DAC",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPCHOKE_B3E6",
+        "definition": "multi-constellation choke ring GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/E6, BDS B1/B2/B3, QZSS L1/L2/L5/LEX, L-band",
+        "manufacturer": "Septentrio",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPCHOKE_MC",
+        "definition": "multi-constellation choke ring GPS/GAL/BDS:L1+L2+L5/E5  GLO:L1+L2+L3  L-band",
+        "manufacturer": "Septentrio",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPPOLANT_X_MF",
+        "definition": "multi-constellation antenna GPS/GAL:L1/E1+L2+L5/E5  BDS:B1/B2  GLO:L1+L2+L3 L-band",
+        "manufacturer": "Septentrio",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPVC6150L",
+        "definition": "VeraChoke 6050 with 50 dB LNA, GPS/QZSS L1/L2/L5 GLONASS G1/G2/G3, Galileo E1/E5a/ E5b/E6, BDS B1/B2/ B2a/B3, QZSS L6, NavIC L5,  L-band corrections",
+        "manufacturer": "Septentrio",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SEPVP6050_CONE",
+        "definition": "VeraPhase 6050 with 50 dB LNA in conical housing, GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5/E5a+b/E6, BDS B1/B2a/B3, L-band corrections",
+        "manufacturer": "Septentrio",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SJTTL111",
+        "definition": "External multi-frequency antenna, GPS/GLO/GAL/BDS, Model TL-111",
+        "manufacturer": "",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SLGAT45101CP",
+        "definition": "GPS L1/L2/L5, GLO L1/L2/L3, GAL E1/E2/E5a/E5b/E6, BDS B1/B2/B3, L-BAND chokering antenna",
+        "manufacturer": "AB",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SOIT3",
+        "definition": "SANDING T3 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "SANDING",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SOIT66PRO",
+        "definition": "SANDING T66pro GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-Band",
+        "manufacturer": "SANDING",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SOK502",
+        "definition": "Sokkia SK520 L1/L2 GPS antenna",
+        "manufacturer": "Sokkia",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SOK600",
+        "definition": "Sokkia SK600 L1/L2 GPS antenna",
+        "manufacturer": "Sokkia",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SOK702",
+        "definition": "Sokkia SK702 L1/L2 GPS antenna",
+        "manufacturer": "Sokkia",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SOK_GSR2700ISX",
+        "definition": "Sokkia GSR2700 ISX, 14 GPS L1, 14 GPS L2, 6 GPS L5 12 GLONASS L1, 12 GLONASS L2 + 2 SBAS",
+        "manufacturer": "Sokkia",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SOK_RADIAN_IS",
+        "definition": "Radian IS L1/L2 RTK GPS integrated receiver+antenna",
+        "manufacturer": "Sokkia",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SOKGCX3",
+        "definition": "Integrated GPS/GLO/GAL/BDS/QZSS/SBAS antenna, P/N 01-120650-11",
+        "manufacturer": "Sokkia",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SOKGRX3",
+        "definition": "Integrated GPS/GLO/GAL/BDS/QZSS/IRNSS(L) SBAS/L-band antenna, P/N 1028556-xx",
+        "manufacturer": "Sokkia",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SOKSA500",
+        "definition": "GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5ab/E6, BDS B1/B2/B3, SBAS antenna with integrated ground plane, P/N 1004478-02",
+        "manufacturer": "Sokkia",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP101861",
+        "definition": "SP60, 240 channels GPS L1/L2, GLONASS, BeiDou, Galileo, QZSS, SBAS, L-band integrated receiver/ant.",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP135000.00",
+        "definition": "SPGA rover, switchable MSS filter in LNA; p/n 135000-00; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BDS",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP571212238+GP",
+        "definition": "Spectra Precision groundplane",
+        "manufacturer": "Spectra Precision",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP571212426",
+        "definition": "SAPOS antenna",
+        "manufacturer": "Spectra Precision",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP571908273",
+        "definition": "Model 571908273, chokerings, oblong antenna element housing",
+        "manufacturer": "Spectra Precision",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP68410_10",
+        "definition": "EPOCH 50, 220 channels GPS L1/L2/L5, GLONASS, Galileo, SBAS integrated receiver/antenna",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "DIS",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP89823_10",
+        "definition": "ProMark 700, 220 channel GPS/GLONASS L1/L2, SBAS integrated receiver/antenna",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "SPP91564_1",
+        "definition": "SP80, 240 channels GPS L1/L2/L5, GLONASS, BeiDou, Galileo, QZSS, SBAS integrated receiver/antenna",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "SPPSP85",
+        "definition": "Integrated GPS: L1/L2/L5, GLO: L1/L2/L3; GAL: E1/E2/ E5ab; BDS: B1/B2; QZSS: L1/L2/L5; IRNSS L5; SBAS L1/ L5; L-band antenna",
+        "manufacturer": "Spectra Precision",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STH660NCH6013A",
+        "definition": "SOUTH 660N GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STH82VHX-BS601A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS SOUTH S82V2 GNSS antenna",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHCR3-G3",
+        "definition": "Multi-purpose machined copper alloy chokering antenna with Dorne Margolin element & LNA. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-band",
+        "manufacturer": "South Surveying",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "STHCR4",
+        "definition": "Multi-purpose machined copper alloy 3D chokering antenna with Dorne Margolin element & LNA. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1-E1/E5a/E5b/E6/AltBOC, L-band",
+        "manufacturer": "South Surveying",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "STHG1PCSX049A",
+        "definition": "SOUTH G1 Plus Internal geodetic antenna. GPS: L1/L2/L5 GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1- E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2/L5, IRNSS: L5, L-Band",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHG1T970A",
+        "definition": "SOUTH G1 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1- E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHG6T970A",
+        "definition": "SOUTH G6 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1- E1/E5a/E5b/E6/AltBOC, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHS82_7224V3.0",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, SBAS SOUTH S82T/S82V GNSS antenna",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHS82HX-BS601A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS SOUTH S82-2013 GNSS antenna",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHS86_7224V3.1",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS SOUTH S86T GNSS antenna",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHS86BS602A",
+        "definition": "SOUTH S86 GNSS Internal geodetic antenna. GPS: L1/L2/L5, GLO: L1/L2/L3, BDS: B1/B2/B3, GAL: E2-L1- E1/E5a/E5b, QZSS: L1/L2C/L5/LEX, L-Band",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STHS86HX-BS611A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, BDS, SBAS SOUTH S86-2013 GNSS antenna",
+        "manufacturer": "South Surveying",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS10SX017A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS STONEX S10 GNSS antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS700A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5 STONEX S700A/S850A antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS800",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3/L5 BDS B1/B2/B3, GAL E1/E2a+E2b/E6, QZSS, SBAS, IRNSS STONEX S800 antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS800A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2P+L2C BDS B1/B2/B3, GAL E1/E2a+E2b, QZSS, SBAS, L-Band Atlas H10/H30/H100 STONEX S800A antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS880",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/E6, BDS B1/B2/B/B3 QZSS L1/L2/L5, NAVIC L5, SBAS STONEX STXS880 antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "OMM",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS8PX003A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS STONEX S8+ GNSS antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS9+X001A",
+        "definition": "STXS9PX001A",
+        "manufacturer": "Stonex",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "STXS900",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2+L2C/L3, GAL E1/E5a+E5b/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, SBAS L1/L5, NAVIC L5 STONEX S900/S900T/S900A antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS900A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5, NAVIC L5 STONEX S900A new antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS990A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3 GAL E1/E5a/E5b/AltBOC/E6, BDS B1/B2a/B2b/ACEBOC/B3 QZSS L1/L2/L5, SBAS L1/L5, NAVIC L5 STONEX S980/S980A/S990A antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS999",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO L1/L2/L3, GAL E1/E5a/E5b/E6, BDS B1/B2/B3, QZSS L1/L2/L5/L6, NAVIC L5, SBAS STONEX STXS999 antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "OMM",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS9I",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLO, GAL, BDS, SBAS STONEX S9I GNSS antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS9PX001A",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS STONEX S9III+ GNSS antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXS9SA7224V3.0",
+        "definition": "Integrated GPS L1/L2+L2C/L5, GLONASS, Galileo, BeiDou, SBAS STONEX S9II GNSS antenna",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "STXSA1000",
+        "definition": "Geodetic reference station antenna GPS: L1/L2/L5 GLO: G1/G2/G3, GAL: E1/E5a/E5b/E6, BDS: B1/B2/B3, QZSS: L1/L2/L5/L6, IRNSS L5, L-BAND",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "STXSA1100",
+        "definition": "Geodetic reference station antenna with 2D choke ring GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5a/E5b/E6 BDS B1/B2/B3, QZSS L1/L2/L5/L6, IRNSS L5, L-BAND",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "STXSA1200",
+        "definition": "Geodetic reference station antenna with 3D choke ring GPS: L1/L2/L5, GLO: G1/G2/G3, GAL: E1/E5a/E5b/E6 BDS: B1/B2/B3, QZSS: L1/L2/L5, IRNSS L5, L-BAND",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "STXSA1500",
+        "definition": "Geodetic reference station antenna with 2D choke ring GPS: L1/L2/L5, GLO: G1/G2/G3, GAL: E1/E5a/E5b/E6 BDS: B1/B2/B3, QZSS L1/L2/L5, IRNSS L5, L-BAND",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "STXSA1800",
+        "definition": "Geodetic reference station antenna with 3D choke ring GPS: L1/L2/L5, GLO: G1/G2/G3, GAL: E1/E5a/E5b/E6 BDS: B1/B2/B3, QZSS L1/L2/L5, IRNSS L5, L-BAND",
+        "manufacturer": "Stonex",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TI4100_100",
+        "definition": "TI helical antenna, 100 series",
+        "manufacturer": "Texas Instruments",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TI4100_2000",
+        "definition": "TI helical antenna, 2000 series",
+        "manufacturer": "Texas Instruments",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TI4100_4000",
+        "definition": "TI helical antenna, 4000 series",
+        "manufacturer": "Texas Instruments",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENG2100B",
+        "definition": "Internal antenna, GPS L1/L2+L2C, GLO L1/L2, Galileo, BeiDou, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENG2100R",
+        "definition": "Internal antenna, GPS L1/L2+L2C, GLO L1/L2, Galileo, BeiDou, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENG3100R1",
+        "definition": "Internal antenna, GPS L1/L2+L2C, GLO L1/L2, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENG3100R2",
+        "definition": "Internal antenna, GPS L1/L2+L2C, GLO L1/L2, BDS B1/B2, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENG6J2",
+        "definition": "Internal antenna, GPS L1/L2/L2C/L5, GLO L1/L2, GAL E1/E5ab, BDS B1/B2, QZSS L1/L2C/L5, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TIAPENSMT8883G",
+        "definition": "Internal antenna, GPS L1/L2+L2C, GLO L1/L2, SBAS",
+        "manufacturer": "TI ASAHI",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TOP700337",
+        "definition": "Model 700337   (same as ASH700228D)",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TOP700779A",
+        "definition": "Model 700779.A (same as ASH700718A)",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "TOP72110",
+        "definition": "Model 72110, used with the TURBO-SII receiver small radius with Dorne Margolin element",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TOPCON GP-R1SD",
+        "definition": "NONE",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TOPCR3_GGD",
+        "definition": "TPSCR3_GGD",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TPSCR.G3",
+        "definition": "Topcon GPS/GLONASS/Galileo choke ring antenna",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSCR.G5",
+        "definition": "GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5ab/E6, BDS B1/B2/B3, SBAS geodetic choke ring antenna, P/N 01-070801-01LF",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSCR.G5C",
+        "definition": "GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5ab/E6, BDS B1/B2/B3, SBAS geodetic choke ring antenna with enhanced interference suppression, P/N 01-070801-02LF",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSCR3_GGD",
+        "definition": "Part No. 01-031401-01",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSCR4",
+        "definition": "P/N 01-840002-01 Choke ring L1/L2",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSG3_A1",
+        "definition": "Topcon GPS/GLONASS/Galileo antenna with ground plane",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSG5_A1",
+        "definition": "GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5ab/E6, BDS B1/B2/B3, SBAS antenna with integrated ground plane, P/N 1004478-01",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSGR3",
+        "definition": "Integrated antenna/receiver/modem GNSS L1/L2",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "CAC",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSGR5",
+        "definition": "GNSS integrated antenna/receiver 216 channel",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_GD",
+        "definition": "P/N 01-830401-01 Integrated antenna+receiver",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_GGD",
+        "definition": "P/N 01-840401-01 Antenna+receiver GPS/GLONASS",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_HR",
+        "definition": "Integrated GPS/GLO/GAL/BDS/QZSS/SBAS/L-band antenna, P/N 1006276-01",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_HR+PS",
+        "definition": "Integrated GPS/GLO/GAL/BDS/QZSS/SBAS/L-band antenna, P/N 1006276-01, installed on top of 10 cm prism spacer, P/N 51949",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_LITE",
+        "definition": "P/N 01-840802-03 Antenna+receiver+wireless, GPS",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_PLUS",
+        "definition": "P/N 01-840801-01 Antenna+receiver+wireless, G/G",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSHIPER_VR",
+        "definition": "Integrated GPS/GLO/GAL/BDS/QZSS/IRNSS(L) SBAS/L-band antenna, P/N 1016578-xx",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSLEGANT2",
+        "definition": "P/N 01-830004-02 L1/L2",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSLEGANT3_UHF",
+        "definition": "P/N 01-830004-03 L1/L2",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSLEGANT_G",
+        "definition": "P/N 01-830005-01 L1",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSODYSSEY_I",
+        "definition": "Integrated antenna/receiver L1/L2",
+        "manufacturer": "Topcon",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSPG_A1",
+        "definition": "P/N 01-840201-04 L1/L2 without groundplane",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSPG_A1+GP",
+        "definition": "P/N 01-840201-04 L1/L2 with groundplane",
+        "manufacturer": "Topcon",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TPSPN.A5",
+        "definition": "Topcon Multi-Constellation Geodetic Antenna with convex impedance ground plane",
+        "manufacturer": "Topcon",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TR GEOD L1/L2 GP",
+        "definition": "TRM22020.00+GP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TR GEOD L1/L2 W/O GP",
+        "definition": "TRM22020.00-GP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TRM105000.10",
+        "definition": "Zephyr 3 rover, switchable MSS filter in LNA; p/n 105000-10; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BDS",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM10877.10+RGP",
+        "definition": "TRM12333.00+RGP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TRM10877.10+SGP",
+        "definition": "TRM11877.10+SGP",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "deprecated"
+    },
+    {
+        "term": "TRM10877.10_H",
+        "definition": "4000SX Helical, Model 10877.10",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM115000.00",
+        "definition": "Zephyr 3 Geodetic, switchable MSS filter in LNA; p/n 115000-00; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BDS",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM115000.00+S",
+        "definition": "Zephyr 3 Geodetic with SCIT spacer, switchable MSS filter in LNA; p/n 115000-00; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BDS",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM115000.10",
+        "definition": "Zephyr 3 base, switchable MSS filter in LNA; p/n 115000-10; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BDS",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM11877.10+SGP",
+        "definition": "4000SX Micro, square groundplane, Model 11877.10",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM12333.00+RGP",
+        "definition": "4000SL Micro, round groundplane, Model 12333.00 (with pyramid patch antenna cover)",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM12562.00+SGP",
+        "definition": "4000SLD L1/L2, square groundplane, Model 12562.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM12562.10+RGP",
+        "definition": "4000SLD L1/L2, round groundplane, Model 12562.10",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM14156.00-GP",
+        "definition": "4000ST Kinematic External, Model 14156.00 (no groundplane)",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM14177.00",
+        "definition": "4000ST L1 Geodetic, Model 14177.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM14532.00",
+        "definition": "4000ST L1/L2 Geodetic, Model 14532.00",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM14532.10",
+        "definition": "4000SSE Kin L1/L2, Model 14532.10",
+        "manufacturer": "Trimble",
+        "arp": "TOP",
+        "nrp": "UNK",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM159800.00",
+        "definition": "Dorne Margolin with choke rings, p/n 159800-00; switchable MSS filter in LNA; GPS: L1/L2/L5; GLO: L1/L2/L3; GAL: E1/E2/E5ab/E6; BDS: B1/B2/B3",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM159900.00",
+        "definition": "GNSS-Ti antenna with choke rings, p/n 159900-00; switchable MSS filter in LNA; GPS: L1/L2/L5; GLO: L1/L2/L3; GAL: E1/E2/E5ab/E6; BDS: B1/B2/B3",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM16741.00",
+        "definition": "Compact Dome, Model 16741.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM17200.00",
+        "definition": "4000SE L1 Internal, Model 17200.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM22020.00+GP",
+        "definition": "Geod. L1/L2 compact, with groundplane, Model 22020-00",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM22020.00-GP",
+        "definition": "Geod. L1/L2 compact, w/o groundplane, Model 22020-00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM23903.00",
+        "definition": "Permanent L1/L2, Model 23903.00, cast preamp housing",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM23965.00",
+        "definition": "Compact L1 with groundplane, Model 23965.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM26738.00",
+        "definition": "L1 antenna used by US Coast Guard, Model 26738.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM27947.00+GP",
+        "definition": "Rugged L1/L2 with groundplane, Model 27947.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM27947.00-GP",
+        "definition": "Rugged L1/L2 w/o groundplane, Model 27947.00",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM29659.00",
+        "definition": "Trimble L1/L2 Dorne Margolin element with chokerings Model 29659.00",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM33429.00+GP",
+        "definition": "L1/L2 microcentered, Compact Geodetic, Model 33429.00 (with groundplane)",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM33429.00-GP",
+        "definition": "L1/L2 microcentered, Compact Geodetic (no groundplane)",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM33429.20+GP",
+        "definition": "L1/L2 microcentered, Compact Geodetic, Model 33429-20 (with groundplane)",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM39105.00",
+        "definition": "Zephyr 4-point feed antenna - No Ground Plane",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM4000ST_INT",
+        "definition": "4000ST L1 Internal",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM41249.00",
+        "definition": "Zephyr 4-point feed antenna - Stealth Ground Plane",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM41249USCG",
+        "definition": "Zephyr Geodetic L1/L2 +RD w/ USCG mount",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM4800",
+        "definition": "L1/enhanced L2 receiver, with internal antenna and radio modem, p/n: 32119-XX",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM55970.00",
+        "definition": "Zephyr GNSS II - lead-based solder L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM55971.00",
+        "definition": "Zephyr GNSS Geodetic II - lead-based solder L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM57970.00",
+        "definition": "Zephyr GNSS II - RoHS compliant solder L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM57971.00",
+        "definition": "Zephyr GNSS Geodetic II - RoHS compliant solder L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM5800",
+        "definition": "Antenna inside Trimble 5800 and Trimble R8",
+        "manufacturer": "Trimble",
+        "arp": "",
+        "nrp": "",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM59800.00",
+        "definition": "Dorne Margolin with chokerings, Model 59800.00 L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou, GPS, GLONASS, Galileo & BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM59800.00C",
+        "definition": "Dorne Margolin with chokerings, Model 59800.00 (adapted for Chinese market) L1/L2/L5/G1/G2/G3 /E1/E2/E5ab/E6/BeiDou, GPS, GLONASS, Galileo & BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM59800.80",
+        "definition": "Dorne Margolin with chokerings, Model 59800.80 L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou, GPS, GLONASS, Galileo & BeiDou. Upgraded from TRM29659.00 with GNSS low-noise amplifier",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM59800.99",
+        "definition": "Dorne Margolin with chokerings, Model 59800.99 L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou, GPS, GLONASS, Galileo BeiDou. Upgraded TRM29659.00 with Tallysman TW605 GNSS low-noise amplifier",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM59900.00",
+        "definition": "GNSS antenna with chokerings, Model 59900.00 L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou, GPS, GLONASS, Galileo & BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BPA",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM77970.00",
+        "definition": "Zephyr GNSS model II rover - RoHS compliant solder, additional filter in LNA, p/n 77970-00; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "TMT",
+        "status": "accepted"
+    },
+    {
+        "term": "TRM77971.00",
+        "definition": "Zephyr GNSS Geodetic II - RoHS compliant solder, additional filter in LNA, p/n 77971-00; L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/BeiDou",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "RXC",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR10",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo & BeiDou antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR10-2",
+        "definition": "GPS: L1/L2/L5, GLO: L1/L2/L3; GAL: E1/E2/E5ab/E6 BDS: B1/B2/B3; QZSS: L1/L2/L5/LEX; SBAS L1/L5",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR12",
+        "definition": "Integrated GPS: L1/L2/L5, GLO: L1/L2/L3; GAL: E1/E2/ E5ab/E6 BDS: B1/B2/B3; QZSS: L1/L2/L5/LEX; SBAS L1/ L5 antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR12I",
+        "definition": "GPS: L1/L2/L5, GLO: L1/L2/L3; GAL: E1/E2/E5ab/E6 BDS: B1/B2/B3; QZSS: L1/L2/L5/LEX; SBAS L1/L5",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR2",
+        "definition": "Integrated L1/L2+L2C/G1/G2/E1/E5ab/B1/B2 GPS, GLONASS, Galileo, BeiDou & QZSS antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR4",
+        "definition": "Integrated GPS L1/L2 GLO L1/L2 Trimble R4 antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR4-2",
+        "definition": "Integrated GPS L1/L2 GLO L1/L2 Trimble R4 model 2",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR4-3",
+        "definition": "Integrated GPS L1/L2 GLO L1/L2 Trimble R4 model 3",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR6",
+        "definition": "Integrated GPS L1/L2+L2C GLO L1/L2 Trimble R6 antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR6-2",
+        "definition": "Integrated GPS L1/L2+L2C GLO L1/L2 Trimble R6 model 2",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR6-3",
+        "definition": "Integrated GPS L1/L2+L2C GLO L1/L2 Trimble R6 model 3",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR6-4",
+        "definition": "Integrated GPS L1/L2+L2C GLO L1/L2 Trimble R6 model 4",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR8-4",
+        "definition": "Integrated GPS L1/L2+L2C/L5 GLO L1/L2 Trimble R8 GNSS 3 antenna, model 4",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR8_GNSS",
+        "definition": "Integrated GPS L1/L2+L2C/L5 GLO L1/L2 Trimble R8 GNSS antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR8_GNSS3",
+        "definition": "Integrated GPS L1/L2+L2C/L5 GLO L1/L2 Trimble R8 GNSS 3 antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMR8S",
+        "definition": "Integrated L1/L2/L5/G1/G2/G3/E1/E5ab/B1/B2 GPS, GLONASS, Galileo & BeiDou antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMSPS985",
+        "definition": "L1/L2/L5/G1/G2/G3/E1/E2/E5ab/E6/B1/B2/B3, GPS, GLONASS, Galileo & BeiDou antenna",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TRMSPS986",
+        "definition": "GPS: L1/L2/L5, GLO: L1/L2/L3; GAL: E1/E2/E5ab/E6 BDS: B1/B2/B3; QZSS: L1/L2/L5/LEX; SBAS L1/L5",
+        "manufacturer": "Trimble",
+        "arp": "BAM",
+        "nrp": "MMI",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVC6050",
+        "definition": "VeraChoke 6050 with 50 dB LNA, GPS/QZSS L1/L2/L5 GLONASS G1/G2/G3, Galileo E1/E5a/ E5b/E6, BDS B1/ B2/B2a/B3, QZSS L6, NavIC L5,  L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVC6150",
+        "definition": "VeraChoke 6150 with 50 dB LNA, GPS/QZSS L1/L2/L5 GLONASS G1/G2/G3, Galileo E1/E5a/ E5b/E6, BDS B1/ B2/B2a/B3, QZSS L6, NavIC L5,  L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BPA",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVP6000",
+        "definition": "VeraPhase 6000 with 35 dB LNA in flat housing, P/N 33-603500-xx-01-11, GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5/E5a+b/E6, BDS B1/B2/B3, L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVP6000_CONE",
+        "definition": "VeraPhase 6000 with 35 dB LNA in conical housing, P/N 33-603500-xx-01-01, GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5/E5a+b/E6, BDS B1/B2/B3, L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVP6050",
+        "definition": "VeraPhase 6000 with 50 dB LNA in flat housing, P/N 33-605000-xx-01-11, GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5/E5a+b/E6, BDS B1/B2/B3, L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVP6050_CONE",
+        "definition": "VeraPhase 6000 with 50 dB LNA in conical housing, P/N 33-605000-xx-01-01, GPS L1/L2/L5, GLO G1/G2/G3, GAL E1/E5/E5a+b/E6, BDS B1/B2/B3, L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "TWIVSP6037L",
+        "definition": "VeroStar VSP6037L with 37 dB LNA, GPS/QZSS L1/L2/L5, GLONASS G1/G2/G3, Galileo E1/E5a/E5b/E6, BDS B1/ B2/B2a/B3, QZSS L6, NavIC L5, L-band corrections",
+        "manufacturer": "Tallysman",
+        "arp": "BAM",
+        "nrp": "NOM",
+        "status": "accepted"
+    },
+    {
+        "term": "U-BLOX_EVK-6T",
+        "definition": "U-BLOX antenna",
+        "manufacturer": "U-Blox",
+        "arp": "BPA",
+        "nrp": "",
+        "status": "accepted"
+    }
+]

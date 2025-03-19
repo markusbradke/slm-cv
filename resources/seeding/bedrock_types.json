@@ -1,0 +1,520 @@
+[
+    {
+        "term": "Igneous Andesite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Anorthosite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Aplite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Basalt",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Adakite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Hawaiite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Basanite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Boninite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Carbonatite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Charnockite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Enderbite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Dacite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Diorite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Dolerite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Dunite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Essexite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Foidolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Gabbro",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Granite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Granodiorite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Granophyre",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Harzburgite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Hornblendite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Hyaloclastite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Icelandite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Ignimbrite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Ijolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Kimberlite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Komatiite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Lamproite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Lamprophyre",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Latite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Lherzolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Monzogranite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Monzonite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Nepheline Syenite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Nephelinite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Norite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Obsidian",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Pegmatite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Peridotite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Phonolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Picrite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Porphyry",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Pumice",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Pyroxenite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Quartz Diorite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Quartz Monzonite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Rhyodacite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Rhyolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Comendite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Pantellerite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Scoria",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Sovite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Syenite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Tachylyte",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Tephrite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Tonalite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Trachyandesite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Benmoreite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Basaltic Trachyandesite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Mugearite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Shoshonite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Trachyte",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Troctolite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Trondhjemite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Tuff",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Websterite",
+        "definition": ""
+    },
+    {
+        "term": "Igneous Wehrlite",
+        "definition": ""
+    },
+
+    {
+        "term": "Sedimentary Argillite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Arkose",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Banded Iron Formation",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Breccia",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Chalk",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Chert",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Claystone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Coal",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Conglomerate",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Diamictite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Coquina",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Diatomite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Dolomite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Evaporite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Flint",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Greywacke",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Gritstone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Itacolumite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Jaspillite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Laterite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Lignite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Limestone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Marl",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Mudstone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Oil Shale",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Oolite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Rock Gypsum",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Sandstone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Shale",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Siltstone",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Travertine",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Turbidite",
+        "definition": ""
+    },
+    {
+        "term": "Sedimentary Wackestone",
+        "definition": ""
+    },
+
+    {
+        "term": "Metamorphic Anthracite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Amphibolite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Blueschist",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Cataclasite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Eclogite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Gneiss",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Gossan",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Granulite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Greenschist",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Greenstone",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Hornfels",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Marble",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Migmatite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Mylonite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Metapelite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Phyllite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Metapsammite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Pseudotachylite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Quartzite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Schist",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Serpentinite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Skarn",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Slate",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Suevite",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Talc Carbonate",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Soapstone",
+        "definition": ""
+    },
+    {
+        "term": "Metamorphic Whiteschist",
+        "definition": ""
+    }
+]

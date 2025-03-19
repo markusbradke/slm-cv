@@ -1,9 +1,10 @@
+import DeleteVocabularyButton from '@/components/delete-vocabulary-button';
 import { Badge } from '@/components/ui/badge';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import AppLayout from '@/layouts/app-layout';
-import { Vocabulary, Term, type BreadcrumbItem } from '@/types';
-import { Head, Link, router } from '@inertiajs/react';
+import { SharedData, Vocabulary, type BreadcrumbItem } from '@/types';
+import { Head, Link, router, usePage } from '@inertiajs/react';
 import { toast } from 'sonner';
 
 const breadcrumbs: BreadcrumbItem[] = [
@@ -18,51 +19,57 @@ const breadcrumbs: BreadcrumbItem[] = [
 ];
 
 export default function Index({ vocabularies }: { vocabularies: Vocabulary[] }) {
-    const deleteCategory= (id: string) => {
+    const page = usePage<SharedData>();
+    const { auth } = page.props;
+
+    const deleteCategory = (id: string) => {
         if (confirm('Are you sure?')) {
             router.delete(route('vocabularies.destroy', { id }));
             toast.success('Vocabulary successfully deleted');
         }
-    }
+    };
 
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
-            <Head title="Dashboard" />
-            <div>
-                <Link href={`vocabularies/create`} className='mt-4'>
+            <Head title="Vocabularies" />
+            <div className="mt-4">
+                {auth?.user && 
+                <Link href={`vocabularies/create`}>
                     <Button variant="outline">Create New</Button>
                 </Link>
+                }
                 <Table className={'mt-4'}>
                     <TableHeader>
                         <TableRow>
                             <TableHead>Vocabulary</TableHead>
+                            <TableHead>Description</TableHead>
                             <TableHead>Term Count</TableHead>
-                            <TableHead>Actions</TableHead>
+                            {auth?.user && <TableHead>Actions</TableHead>}
                         </TableRow>
                     </TableHeader>
                     <TableBody>
                         {vocabularies.map((vocabulary) => (
                             <TableRow key={vocabulary.id}>
                                 <TableCell>
-                                    {vocabulary.name}
-                                </TableCell>
+                                        <a href={`/vocabularies/${vocabulary.uuid}`} className="hover:underline">
+                                            {vocabulary.name}
+                                        </a>
+                                    </TableCell>
+                                <TableCell>{vocabulary?.description}</TableCell>
                                 <TableCell>
-                                    <Badge>{vocabulary.terms_count}</Badge>
+                                    <Badge variant="outline">{vocabulary.terms_count}</Badge>
                                 </TableCell>
-                                <TableCell>
+                                {auth?.user && 
+                                <TableCell className="flex gap-2">
                                     <Link href={`terms?vocabulary=${vocabulary.slug}`}>
                                         <Button variant="outline">Show Terms</Button>
                                     </Link>
-                                    <Link href="">
-                                        <Button className={buttonVariants({variant: 'default'})}>
-                                            Edit
-                                        </Button>
+                                    <Link href={`/vocabularies/${vocabulary?.uuid}/edit`}>
+                                        <Button className={buttonVariants({ variant: 'default' })}>Edit</Button>
                                     </Link>
-                                    
-                                    <Button variant={'destructive'} className={'cursor-pointer'} onClick={() => deleteCategory(vocabulary.slug)}>
-                                        Delete
-                                    </Button>
+                                    <DeleteVocabularyButton id={vocabulary.uuid} />
                                 </TableCell>
+                                }
                             </TableRow>
                         ))}
                     </TableBody>
