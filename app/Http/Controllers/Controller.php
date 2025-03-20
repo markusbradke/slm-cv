@@ -22,6 +22,11 @@ use OpenApi\Attributes as OA;
     url: L5_SWAGGER_CONST_HOST,
     description: 'SLM-CV API Server'
 )]
+// Tags
+#[OA\Tag(
+    name: 'terms',
+    description: 'Vocabulary Terms'
+)]
 // Parameters
 #[OA\Parameter(
     name: 'search',
@@ -33,13 +38,23 @@ use OpenApi\Attributes as OA;
     )
 )]
 #[OA\Parameter(
-    name: 'per_page',
-    description: 'Number of records per page (Default: all)',
+    name: 'page',
+    description: 'Page number',
     required: false,
     in: 'query',
     schema: new OA\Schema(
         type: 'int',
-        example: '-1'
+        example: '1'
+    )
+)]
+#[OA\Parameter(
+    name: 'per_page',
+    description: 'Number of records per page (Default: 10)',
+    required: false,
+    in: 'query',
+    schema: new OA\Schema(
+        type: 'int',
+        example: '10'
     )
 )]
 // Responses

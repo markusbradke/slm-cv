@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CommandDialog, CommandList, CommandEmpty, CommandGroup, CommandItem } from "@/components/ui/command";
 import { Search } from "lucide-react";
 import { Term } from "@/types";
-import { Badge } from "./ui/badge";
+import { Badge } from "@/components/ui/badge";
 import { router } from "@inertiajs/react";
 
 const SearchCommand = () => {

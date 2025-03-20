@@ -22,7 +22,7 @@ return new class extends Migration
             $table->text('discussion_url')->nullable();
             $table->text('notes')->nullable();
             $table->jsonb('aliases')->nullable();
-            $table->enum('status', ['accepted', 'pending', 'rejected', 'deprecated'])->default('pending');
+            $table->enum('status', ['accepted', 'pending', 'rejected', 'deprecated', 'suggested'])->default('pending');
             $table->timestamps();
 
             $table->unique(['name', 'vocabulary_id']);

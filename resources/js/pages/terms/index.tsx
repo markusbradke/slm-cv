@@ -31,7 +31,7 @@ export default function Index({ terms, vocabularies }: { terms: PaginatedTerms; 
         vocabulary: vocabularySlug || null,
     });
 
-    const statuses = ['accepted', 'pending', 'rejected', 'deprecated'];
+    const statuses = ['accepted', 'pending', 'rejected', 'deprecated', 'suggested'];
 
     // Sync filters when the URL changes
     useEffect(() => {

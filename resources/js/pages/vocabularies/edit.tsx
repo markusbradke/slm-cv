@@ -117,8 +117,8 @@ export default function Edit({ vocabulary } : { vocabulary: Vocabulary}) {
                         <InputError message={errors.description} />
                     </div>
 
-                    <div className="flex items-center gap-4">
-                        <Button disabled={processing}>Edit Vocabulary</Button>
+                    <div className="flex justify-end">
+                        <Button disabled={processing}>Update Vocabulary</Button>
                     </div>
                 </form>
             </div>

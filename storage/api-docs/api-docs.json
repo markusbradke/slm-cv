@@ -23,12 +23,18 @@
     "paths": {
         "/terms": {
             "get": {
+                "tags": [
+                    "terms"
+                ],
                 "summary": "List terms",
                 "description": "Display a listing of the resource.",
                 "operationId": "indexTerms",
                 "parameters": [
                     {
                         "$ref": "#/components/parameters/search"
+                    },
+                    {
+                        "$ref": "#/components/parameters/page"
                     },
                     {
                         "$ref": "#/components/parameters/per_page"
@@ -38,6 +44,116 @@
                     "200": {
                         "description": "OK",
                         "content": {
+                            "application/vnd.ld+json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Term"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Term"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/terms/{uuid}": {
+            "get": {
+                "tags": [
+                    "terms"
+                ],
+                "summary": "Show term",
+                "description": "Display the specified resource.",
+                "operationId": "showTerm",
+                "parameters": [
+                    {
+                        "parameter": "id",
+                        "name": "uuid",
+                        "in": "path",
+                        "description": "ID",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "format": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/vnd.ld+json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Term"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Term"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/vocabularies/{uuid}/terms": {
+            "get": {
+                "tags": [
+                    "terms"
+                ],
+                "summary": "List terms by vocabulary",
+                "description": "Display a listing of the resource.",
+                "operationId": "indexTermVocabularies",
+                "parameters": [
+                    {
+                        "parameter": "id",
+                        "name": "uuid",
+                        "in": "path",
+                        "description": "ID",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "format": "string"
+                        }
+                    },
+                    {
+                        "$ref": "#/components/parameters/search"
+                    },
+                    {
+                        "$ref": "#/components/parameters/page"
+                    },
+                    {
+                        "$ref": "#/components/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/vnd.ld+json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Term"
+                                }
+                            },
                             "application/json": {
                                 "schema": {
                                     "properties": {
@@ -126,16 +242,32 @@
                     "type": "string"
                 }
             },
-            "per_page": {
-                "name": "per_page",
+            "page": {
+                "name": "page",
                 "in": "query",
-                "description": "Number of records per page (Default: all)",
+                "description": "Page number",
                 "required": false,
                 "schema": {
                     "type": "int",
-                    "example": "-1"
+                    "example": "1"
+                }
+            },
+            "per_page": {
+                "name": "per_page",
+                "in": "query",
+                "description": "Number of records per page (Default: 10)",
+                "required": false,
+                "schema": {
+                    "type": "int",
+                    "example": "10"
                 }
             }
         }
-    }
+    },
+    "tags": [
+        {
+            "name": "terms",
+            "description": "Vocabulary Terms"
+        }
+    ]
 }

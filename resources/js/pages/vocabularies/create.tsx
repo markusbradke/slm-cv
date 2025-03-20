@@ -98,7 +98,7 @@ export default function Create() {
                         <InputError message={errors.description} />
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex justify-end">
                         <Button disabled={processing}>Create Term</Button>
                     </div>
                 </form>

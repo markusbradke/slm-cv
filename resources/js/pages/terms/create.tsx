@@ -196,13 +196,14 @@ export default function Create({ vocabularies }: { vocabularies: Vocabulary[] })
                                 <SelectItem value="accepted">Accepted</SelectItem>
                                 <SelectItem value="rejected">Rejected</SelectItem>
                                 <SelectItem value="deprecated">Deprecated</SelectItem>
+                                <SelectItem value="suggested">Suggested</SelectItem>
                             </SelectContent>
                         </Select>
 
                         <InputError message={errors.status} />
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex justify-end">
                         <Button disabled={processing}>Create Term</Button>
                     </div>
                 </form>

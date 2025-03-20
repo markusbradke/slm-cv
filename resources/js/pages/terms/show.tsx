@@ -1,4 +1,5 @@
 import StatusBadge from '@/components/status-badge';
+import TermJsonDrawer from '@/components/term-json-drawer';
 import { Button } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import AppLayout from '@/layouts/app-layout';
@@ -109,15 +110,17 @@ export default function Show({ term }: { term: Term }) {
                         <TableRow>
                             <TableCell className="font-medium">Formats</TableCell>
                             <TableCell>
-                                <Link href={`/api/v1/terms/${term.uuid}`}>
+                                <TermJsonDrawer uuid={term.uuid} format='json'/>
+                                <TermJsonDrawer uuid={term.uuid} format='ld+json'/>
+                                {/* <Link href={`/api/v1/terms/${term.uuid}`}>
                                     JSON-LD
-                                </Link>
+                                </Link> */}
                             </TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
             </div>
-            <div>
+            <div className="flex justify-end">
                 {auth?.user && (
                     <Link href={`/terms/${term.uuid}/edit`}>
                         <Button>Edit</Button>

@@ -186,7 +186,7 @@ export default function Edit({ term }: { term: Term }) {
                         <InputError message={errors.status} />
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex justify-end">
                         <Button disabled={processing}>Update Term</Button>
                     </div>
                 </form>

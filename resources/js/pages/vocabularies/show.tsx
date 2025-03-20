@@ -61,7 +61,7 @@ export default function Show({ vocabulary }: { vocabulary: Vocabulary }) {
                     </TableBody>
                 </Table>
             </div>
-            <div>
+            <div className="flex justify-end">
                 {auth?.user && (
                     <Link href={`/vocabularies/${vocabulary.uuid}/edit`}>
                         <Button>Edit</Button>

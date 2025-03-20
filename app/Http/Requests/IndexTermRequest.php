@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Enums\TermStatus;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class IndexTermRequest extends FormRequest
 {
@@ -22,7 +24,10 @@ class IndexTermRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'category' => 'nullable',
+            'page' => ['nullable', 'integer', 'min:1'],
+            'per_page' => ['nullable', 'integer', 'min:1', 'max:100'],
+            'search' => ['nullable', 'string'],
+            'status' => ['nullable', 'string', Rule::in(array_column(TermStatus::cases(), 'value'))],
         ];
     }
 }
