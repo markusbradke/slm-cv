@@ -13,10 +13,10 @@ const breadcrumbs: BreadcrumbItem[] = [
     },
 ];
 
-export default function Dashboard() {
+export default function Contributing() {
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
-            <Head title="Dashboard" />
+            <Head title="Contributing" />
             <div className="mt-4">
                 Information for users how to contribute goes here.
             </div>

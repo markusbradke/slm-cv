@@ -10,7 +10,7 @@ const breadcrumbs: BreadcrumbItem[] = [
     },
 ];
 
-export default function Contributing({ terms_count, vocabularies_count } : {terms_count: number, vocabularies_count: number}) {
+export default function Dashboard({ terms_count, vocabularies_count } : {terms_count: number, vocabularies_count: number}) {
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Dashboard" />
