@@ -17,7 +17,9 @@ export default function Dashboard() {
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Dashboard" />
-            <div></div>
+            <div className="mt-4">
+                Information for users how to contribute goes here.
+            </div>
         </AppLayout>
     );
 }
