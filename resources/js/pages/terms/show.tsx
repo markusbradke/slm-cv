@@ -1,5 +1,6 @@
 import StatusBadge from '@/components/status-badge';
 import TermJsonDrawer from '@/components/term-json-drawer';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableRow } from '@/components/ui/table';
 import AppLayout from '@/layouts/app-layout';
@@ -48,7 +49,9 @@ export default function Show({ term }: { term: Term }) {
                         <TableRow>
                             <TableCell className="font-medium">Vocabulary</TableCell>
                             <TableCell>
-                                <Link href={`/vocabularies/${term.vocabulary?.slug}`}>{term.vocabulary?.name}</Link>
+                                <Link href={`/vocabularies/${term.vocabulary?.slug}`}>
+                                    <Badge variant={'destructive'}>{term.vocabulary?.name}</Badge>
+                                </Link>
                             </TableCell>
                         </TableRow>
                         <TableRow>

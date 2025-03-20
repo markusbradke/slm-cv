@@ -2,60 +2,81 @@
 
 namespace App\Services;
 
-use App\Models\Term;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Support\Str;
 
 class JsonLdTransformer
 {
     /**
-     * Transform a collection of terms or a single term into JSON-LD format.
+     * Transform a model, collection of models, or paginator into JSON-LD format.
+     * Accepts an array of properties to include in the transformation.
      */
-    public static function transform($terms): array
+    public static function transform($models, string $modelType = 'Thing', array $properties = [], array $additionalAttributes = []): array
     {
-        // Check if $terms is a paginator (i.e., paginated results)
-        if ($terms instanceof \Illuminate\Pagination\LengthAwarePaginator) {
-            // If it's a paginator, get the actual terms collection and pass it to transformTerms
-            return self::transformTerms($terms->getCollection());
-        }
-        
-        // Check if $terms is a collection (for multiple terms) or a single term
-        if ($terms instanceof \Illuminate\Database\Eloquent\Collection) {
-            // If a collection of terms, map each term
-            return self::transformTerms($terms);
+        // If $models is a paginator, handle the collection of items inside it
+        if ($models instanceof \Illuminate\Pagination\LengthAwarePaginator) {
+            return self::transformCollection($models->getCollection(), $modelType, $properties, $additionalAttributes);
         }
 
-        // If a single term, process it directly
-        return self::transformTerm($terms);
+        // If it's a collection, transform it
+        if ($models instanceof Collection) {
+            return self::transformCollection($models, $modelType, $properties, $additionalAttributes);
+        }
+
+        // Otherwise, assume it's a single model instance
+        return self::transformSingleModel($models, $modelType, $properties, $additionalAttributes);
     }
 
     /**
-     * Transform a collection of terms into JSON-LD format.
+     * Transform a collection of models into JSON-LD format.
      */
-    public static function transformTerms($terms): array
+    public static function transformCollection(Collection $models, string $modelType, array $properties, array $additionalAttributes): array
     {
         return [
             '@context' => 'https://schema.org',
-            '@graph' => $terms->map(fn($term) => self::transformTerm($term))->toArray(),
+            '@graph' => $models->map(fn($model) => self::transformSingleModel($model, $modelType, $properties, $additionalAttributes))->toArray(),
         ];
     }
 
     /**
-     * Transform a single term into JSON-LD format.
+     * Transform a single model into JSON-LD format.
      */
-    public static function transformTerm(Term $term): array
+    public static function transformSingleModel(Model $model, string $modelType, array $properties, array $additionalAttributes): array
     {
-        $type = optional($term->vocabulary)->name ?? 'Thing';
+        // Get model attributes dynamically
+        $attributes = $model->getAttributes();
+        
+        // Merge additional attributes (e.g., custom attributes you want to add to JSON-LD)
+        $attributes = array_merge($attributes, $additionalAttributes);
 
-        return [
-            '@type' => $type,
-            'name' => $term->name,
-            'definition' => $term->definition,
-            'provenance' => $term->provenance,
-            'provenance_uri' => $term->provenance_uri,
-            'discussion_url' => $term->discussion_url,
-            'notes' => $term->notes,
-            'status' => $term->status,
-            'identifier' => $term->uuid,
-            'url' => route('terms.show', $term),
+        // Get the model's route name dynamically
+        $modelClass = get_class($model);
+        $modelName = strtolower(class_basename($modelClass));
+        $routeName = Str::plural($modelName) . '.show';
+
+        // Prepare JSON-LD output
+        $jsonLdData = [
+            '@type' => $modelType,
         ];
+
+        // Add dynamic properties from the provided array of properties
+        foreach ($properties as $property) {
+            if (isset($attributes[$property])) {
+                $jsonLdData[$property] = $attributes[$property];
+            } else {
+                $jsonLdData[$property] = null;
+            }
+        }
+
+        $jsonLdData['identifier'] = $model->uuid;
+        $jsonLdData['url'] = route($routeName, $model);
+
+        // Optionally add relationships if needed
+        if ($model->relationLoaded('vocabulary') && $model->vocabulary) {
+            $jsonLdData['vocabulary'] = $model->vocabulary->name;
+        }
+
+        return $jsonLdData;
     }
 }

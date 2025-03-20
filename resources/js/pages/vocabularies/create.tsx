@@ -99,7 +99,7 @@ export default function Create() {
                     </div>
 
                     <div className="flex justify-end">
-                        <Button disabled={processing}>Create Term</Button>
+                        <Button disabled={processing}>Create Vocabulary</Button>
                     </div>
                 </form>
             </div>

@@ -2,27 +2,25 @@
 
 namespace App\Http\Controllers\API\V1;
 
-use App\Filters\StatusFilter;
-use App\Filters\TermSearchFilter;
-use App\Filters\VocabularyFilter;
+use App\Filters\VocabularySearchFilter;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\IndexTermRequest;
-use App\Models\Term;
+use App\Http\Requests\IndexVocabularyRequest;
+use App\Models\Vocabulary;
 use App\Services\JsonLdTransformer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Pipeline;
 use OpenApi\Attributes as OA;
 
-class TermController extends Controller
+class VocabularyController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     #[OA\Get(
-        path: '/terms',
-        summary: "List terms",
-        tags: ['terms'],
-        operationId: 'indexTerms',
+        path: '/vocabularies',
+        summary: "List vocabularies",
+        tags: ['vocabularies'],
+        operationId: 'indexVocabularies',
         parameters: [
             new OA\Parameter(ref: '#/components/parameters/search'),
             new OA\Parameter(ref: '#/components/parameters/page'),
@@ -40,7 +38,7 @@ class TermController extends Controller
                                 property: 'data',
                                 type: 'array',
                                 items: new OA\Items(
-                                    ref: '#/components/schemas/Term'
+                                    ref: '#/components/schemas/Vocabulary'
                                 )
                             )
                         ]
@@ -48,49 +46,44 @@ class TermController extends Controller
                     new OA\MediaType(
                         'application/vnd.ld+json',
                         schema: new OA\Schema(
-                            ref: '#/components/schemas/Term'
+                            ref: '#/components/schemas/Vocabulary'
                         )
                     )
                 ]
             ),
         ]
     )]
-    public function index(IndexTermRequest $request)
+    public function index(IndexVocabularyRequest $request)
     {
         $perPage = $request->input('per_page', 10);
 
-        $terms = Pipeline::send(
-            Term::with('vocabulary')
-                ->orderBy('name')
+        $vocabularies = Pipeline::send(
+            Vocabulary::orderBy('name')
             )
             ->through([
-                StatusFilter::class,
-                TermSearchFilter::class,
-                VocabularyFilter::class,
+                VocabularySearchFilter::class,
             ])
             ->thenReturn()
             ->paginate($perPage);
 
-        $properties = ['name', 'uuid', 'definition', 'provenance', 'provenance_uri', 'discussion_url', 'notes', 'status'];
+        $properties = ['name', 'uuid', 'slug', 'description'];
 
         // Return JSON-LD if requested, otherwise return normal JSON
         if ($request->header('Accept') === 'application/vnd.ld+json') {
-            return response()->json(JsonLdTransformer::transform($terms, 'Term', $properties, [
-                'vocabulary' => optional($terms->first())->vocabulary->name ?? 'Unknown',
-            ]), 200, ['Content-Type' => 'application/ld+json']);
+            return response()->json(JsonLdTransformer::transform($vocabularies, 'Vocabulary', $properties), 200, ['Content-Type' => 'application/ld+json']);
         }
 
-        return response()->json($terms);
+        return response()->json($vocabularies);
     }
 
     /**
      * Display the specified resource.
      */
     #[OA\Get(
-        path: '/terms/{uuid}',
-        summary: "Show term",
-        tags: ['terms'],
-        operationId: 'showTerm',
+        path: '/vocabularies/{uuid}',
+        summary: "Show vocabulary",
+        tags: ['vocabularies'],
+        operationId: 'showVocabulary',
         parameters: [
             new OA\Parameter(
                 parameter: 'id',
@@ -116,7 +109,7 @@ class TermController extends Controller
                                 property: 'data',
                                 type: 'array',
                                 items: new OA\Items(
-                                    ref: '#/components/schemas/Term'
+                                    ref: '#/components/schemas/Vocabulary'
                                 )
                             )
                         ]
@@ -124,26 +117,22 @@ class TermController extends Controller
                     new OA\MediaType(
                         'application/vnd.ld+json',
                         schema: new OA\Schema(
-                            ref: '#/components/schemas/Term'
+                            ref: '#/components/schemas/Vocabulary'
                         )
                     )
                 ]
             ),
         ]
     )]
-    public function show(Term $term, Request $request)
+    public function show(Vocabulary $vocabulary, Request $request)
     {
-        $term = $term->load('vocabulary');
-
-        $properties = ['name', 'uuid', 'definition', 'provenance', 'provenance_uri', 'discussion_url', 'notes', 'status'];
+        $properties = ['name', 'uuid', 'slug', 'description'];
 
         // Return JSON-LD if requested, otherwise return normal JSON
         if ($request->header('Accept') === 'application/vnd.ld+json') {
-            return response()->json(JsonLdTransformer::transform($term, 'Term', $properties, [
-                'vocabulary' => $term->vocabulary->name,
-            ]), 200, ['Content-Type' => 'application/ld+json']);
+            return response()->json(JsonLdTransformer::transform($vocabulary, 'Vocabulary', $properties), 200, ['Content-Type' => 'application/ld+json']);
         }
         
-        return response()->json($term);
+        return response()->json($vocabulary);
     }
 }

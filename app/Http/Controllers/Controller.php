@@ -27,6 +27,10 @@ use OpenApi\Attributes as OA;
     name: 'terms',
     description: 'Vocabulary Terms'
 )]
+#[OA\Tag(
+    name: 'vocabularies',
+    description: 'Vocabularies'
+)]
 // Parameters
 #[OA\Parameter(
     name: 'search',

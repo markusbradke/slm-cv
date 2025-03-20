@@ -52,6 +52,14 @@ class Vocabulary extends Model implements Auditable
         });
     }
 
+    public function scopeFilter($query, array $filters)
+    {
+        $query->when($filters['search'] ?? false, fn ($query, $search) => $query
+            ->where('name', 'ilike', "%$search%")
+            ->orWhere('description', 'ilike', "%$search%")
+        );
+    }
+
     public function getRouteKeyName()
     {
         return 'uuid';

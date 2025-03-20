@@ -92,7 +92,7 @@ export default function Index({ terms, vocabularies }: { terms: PaginatedTerms; 
             <Head title="Terms" />
             <div className="mt-4">
                 {auth?.user && (
-                    <Button variant="outline" className="mr-2" asChild>
+                    <Button className="mr-2" asChild>
                         <a href={`/terms/create?vocabulary=${filters.vocabulary || ''}`}>Create New</a>
                     </Button>
                 )}

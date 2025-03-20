@@ -35,7 +35,7 @@ export default function Index({ vocabularies }: { vocabularies: Vocabulary[] }) 
             <div className="mt-4">
                 {auth?.user && 
                 <Link href={`vocabularies/create`}>
-                    <Button variant="outline">Create New</Button>
+                    <Button>Create New</Button>
                 </Link>
                 }
                 <Table className={'mt-4'}>

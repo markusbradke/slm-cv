@@ -118,7 +118,8 @@
         "/vocabularies/{uuid}/terms": {
             "get": {
                 "tags": [
-                    "terms"
+                    "terms",
+                    "vocabularies"
                 ],
                 "summary": "List terms by vocabulary",
                 "description": "Display a listing of the resource.",
@@ -171,6 +172,100 @@
                     }
                 }
             }
+        },
+        "/vocabularies": {
+            "get": {
+                "tags": [
+                    "vocabularies"
+                ],
+                "summary": "List vocabularies",
+                "description": "Display a listing of the resource.",
+                "operationId": "indexVocabularies",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/search"
+                    },
+                    {
+                        "$ref": "#/components/parameters/page"
+                    },
+                    {
+                        "$ref": "#/components/parameters/per_page"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/vnd.ld+json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Vocabulary"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Vocabulary"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/vocabularies/{uuid}": {
+            "get": {
+                "tags": [
+                    "vocabularies"
+                ],
+                "summary": "Show vocabulary",
+                "description": "Display the specified resource.",
+                "operationId": "showVocabulary",
+                "parameters": [
+                    {
+                        "parameter": "id",
+                        "name": "uuid",
+                        "in": "path",
+                        "description": "ID",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "format": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/vnd.ld+json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Vocabulary"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/Vocabulary"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "components": {
@@ -194,6 +289,55 @@
                     "definition": {
                         "title": "Term definition",
                         "description": "Definition of the term",
+                        "type": "string",
+                        "format": "string",
+                        "nullable": true
+                    },
+                    "createdAt": {
+                        "title": "Created at",
+                        "description": "Timestamp of creation",
+                        "type": "string",
+                        "format": "datetime",
+                        "example": "2023-08-23 14:39:37",
+                        "nullable": true
+                    },
+                    "updatedAt": {
+                        "title": "Updated at",
+                        "description": "Timestamp of last update",
+                        "type": "string",
+                        "format": "datetime",
+                        "example": "2023-08-23 14:39:37",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "Vocabulary": {
+                "description": "Vocabulary schema",
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "description": "ID",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "name": {
+                        "title": "Vocabulary name",
+                        "description": "Name of the vocabulary",
+                        "type": "string",
+                        "format": "string",
+                        "nullable": false
+                    },
+                    "slug": {
+                        "title": "Vocabulary slug",
+                        "description": "Slug of the vocabulary",
+                        "type": "string",
+                        "format": "string",
+                        "nullable": false
+                    },
+                    "description": {
+                        "title": "Vocabulary description",
+                        "description": "Description of the vocabulary",
                         "type": "string",
                         "format": "string",
                         "nullable": true
@@ -268,6 +412,10 @@
         {
             "name": "terms",
             "description": "Vocabulary Terms"
+        },
+        {
+            "name": "vocabularies",
+            "description": "Vocabularies"
         }
     ]
 }

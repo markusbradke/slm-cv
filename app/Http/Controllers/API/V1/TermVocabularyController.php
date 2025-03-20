@@ -20,7 +20,7 @@ class TermVocabularyController extends Controller
     #[OA\Get(
         path: '/vocabularies/{uuid}/terms',
         summary: "List terms by vocabulary",
-        tags: ['terms'],
+        tags: ['terms', 'vocabularies'],
         operationId: 'indexTermVocabularies',
         parameters: [
             new OA\Parameter(
@@ -67,7 +67,7 @@ class TermVocabularyController extends Controller
     )]
     public function index(IndexTermRequest $request, Vocabulary $vocabulary)
     {
-        $perPage = $request->input('per_page', 20);
+        $perPage = $request->input('per_page', 10);
 
         $terms = Pipeline::send(
             Term::with('vocabulary')
@@ -81,9 +81,13 @@ class TermVocabularyController extends Controller
             ->thenReturn()
             ->paginate($perPage);
 
+        $properties = ['name', 'uuid', 'definition', 'provenance', 'provenance_uri', 'discussion_url', 'notes', 'status'];
+
         // Return JSON-LD if requested, otherwise return normal JSON
         if ($request->header('Accept') === 'application/vnd.ld+json') {
-            return response()->json(JsonLdTransformer::transform($terms), 200, ['Content-Type' => 'application/ld+json']);
+            return response()->json(JsonLdTransformer::transform($terms, 'Term', $properties, [
+                'vocabulary' => optional($terms->first())->vocabulary->name ?? 'Unknown',
+            ]), 200, ['Content-Type' => 'application/ld+json']);
         }
 
         return response()->json($terms);
